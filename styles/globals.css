@@ -1,7 +1,18 @@
+@font-face {
+  font-family: 'Roboto-Slab-Medium';
+  src: url('/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Slab-Regular';
+  src: url('/fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf');
+}
+
 html,
 body {
-  padding: 0;
   margin: 0;
+  padding: 0 10rem;
+  font-family:  'Roboto-Slab-Regular', sans-serif;
 }
 
 a {

@@ -1,16 +1,14 @@
 import Head from 'next/head';
-import Sidebar from './sidebar';
 import styles from '../styles/Home.module.css';
+import Footer from '../components/footer';
+import Header from '../components/header';
 
 export default function HomePage() {
     
     return (
         <div className={styles.container}> 
             <Head>Home</Head>
-            <header id={styles.header}>
-                <div id={styles.name}>Gagan Gopalaiah</div>
-                <Sidebar />
-            </header>
+            <Header />
             <main id={styles.content}>
 
                 {/* section for intro */}
@@ -24,13 +22,10 @@ export default function HomePage() {
                     
                     {/* intro text */}
                     <intro-text id={styles.introtext}>
-                        <p>Howdy, thanks for visiting my website.</p>
-                        <p>I am a graduate student at UCSD, pursuing my Masters in Computer Science and Engineering with a focus on Computer Systems. 
-                            More specifically, I am interested in the areas of Cloud Computing, Distributed Systems and Networking. 
-                        </p>
-                        
-                        <p>Prior to UCSD, I spent about 3 years with Cisco as a Software Engineer.</p>
-                        <p>I got my bachelors degree from R.V College of Enginering in Bangalore.</p>
+                        <p>Welcome to my website! I'm a passionate graduate student at UCSD, currently pursuing a Masters in Computer Science and Engineering with a specialization in Computer Systems. My primary areas of interest lie in Cloud Computing, Distributed Systems, and Networking, where I strive to explore innovative solutions and advancements.</p>
+                        <p>Before joining UCSD, I gained valuable experience as a Software Engineer at Cisco, where I worked for approximately 3 years. This role allowed me to contribute to various projects and expand my skills in software development, problem-solving, and collaboration within a tech-driven environment.</p>
+                        <p>I hold a bachelor's degree from R.V College of Engineering in Bangalore, which provided me with a strong foundation in computer science and equipped me with the necessary skills to tackle complex technical challenges.</p>
+                        <p>I am excited to showcase my portfolio and share my projects, achievements, and expertise with you. Feel free to explore and get in touch with me for any further inquiries or opportunities. Thank you for visiting!</p>
                     </intro-text>
 
                 </section>
@@ -75,11 +70,13 @@ export default function HomePage() {
                         <li>CSE 134B Web Client Languages - Winter 2023</li>
                     </ul>
                 </section>
+
+                {/* Section for projects */}
+                <section id={styles.projects}>
+                    
+                </section>
                 
-                <footer id={styles.footer}>
-                    <p>© 2021 Gagan Gopalaiah</p>
-                    {/* <p>Developed with Next.js</p> */}
-                </footer>
+                <Footer />
             </main>
         </div>
     )

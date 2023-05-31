@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Arvo-Regular';
+    src: url('/fonts/Arvo/Arvo-Regular.ttf');
+  }
+  
+
+#header {
+    display: flex;
+    padding: 2rem;
+  }
+
+#name {
+    flex: 1;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Arvo-Regular', sans-serif;
+    font-size: 2rem;
+  }
