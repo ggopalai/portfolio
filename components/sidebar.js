@@ -15,7 +15,7 @@ export default function Sidebar() {
                     <a href='/GaganGopalaiahResume.pdf' download>Resume</a>
                 </li>
                 <li className={styles.listItem}><a href='/photography'>Photography</a></li>
-                <li className={styles.listItem}>Contact</li>
+                <li className={styles.listItem}><a href='/contact'>Contact</a></li>
             </ul>
         </nav>
     )
