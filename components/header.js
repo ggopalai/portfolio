@@ -6,6 +6,6 @@ export default function Header() {
         <header id={styles.header}>
             <div id={styles.name}>Gagan Gopalaiah</div>
             <Sidebar />
-      </header>
+        </header>
     );
 }

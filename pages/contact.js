@@ -1,6 +1,8 @@
 import Header from '../components/header'
 import styles from '../styles/Contact.module.css'
 import Head from 'next/head'
+import Socials from '../components/socials'
+
 
 export default function Contact() {
     return (
@@ -9,13 +11,13 @@ export default function Contact() {
             <Header />
             <main id={styles.main}>
                 <section id={styles.mycontact}>
-                    <h3>Feel free to shoot me an email at <strong>gagandeepgopalaiah@gmail.com</strong> or connect via my socials. </h3>
-                    {/* create block scoped bar for socials */}
-                    <socials id={styles.socials}></socials>
+                    <p>Feel free to shoot me an email at <em>gagandeepgopalaiah@gmail.com</em> or connect via my socials. </p>
+                    <Socials />
                 </section>
+
                 <section id={styles.form}>
-                    <h3>Or, you can fill out this form and I'll get back to you as soon as possible!</h3>
-                    <form action="#" method="POST">
+                    <form method="POST" id={styles.actualform} onSubmit={handleSubmit}>
+                    <p>Or, you can fill out this form and I'll get back to you as soon as possible!</p>
                         <fieldset className={styles.fieldset}>
                             <legend className={styles.legend}>Contact Information</legend>
                             <div>
@@ -30,11 +32,11 @@ export default function Contact() {
                                 <label htmlFor="phone" className={styles.label}>Phone Number</label>
                                 <input type="tel" id="phone" name="phone" className={styles.inputField}/>
                             </div>
-                            </fieldset>
+                        </fieldset>
                         <fieldset className={styles.fieldset}>
                             <legend className={styles.legend}>Your Message</legend>
                             <div>
-                                <label htmlFor="suggestions">Suggestions</label>
+                                <label htmlFor="suggestions" className={styles.label}>Suggestions</label>
                                 <textarea id="suggestions" name="suggestions" className={styles.textareaField}></textarea>
                             </div>
                         </fieldset>
@@ -45,3 +47,35 @@ export default function Contact() {
         </div>
     )
 }
+
+// Event handler for onSubmit event
+function handleSubmit(event) {
+    event.preventDefault();
+    
+    // Collect form data
+    const formData = new FormData(event.target);
+    const data = {
+      name: formData.get('name'),
+      email: formData.get('email'),
+      phoneNumber: formData.get('phoneNumber'),
+      suggestions: formData.get('suggestions'),
+    };
+  
+    // Send form data to the API
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+      .then(response => response.json())
+      .then(data => {
+        // Handle the response from the API
+        console.log(data);
+      })
+      .catch(error => {
+        // Handle any errors
+        console.error('Error:', error);
+      });
+  }
