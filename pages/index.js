@@ -17,7 +17,6 @@ export default function HomePage() {
                     {/* image */}
                     <figure id={styles.dp}>
                         <img src="/dp.jpg" alt="Picture of me, last day of Cisco" />
-                        {/* <figcaption>Me, last day of Cisco</figcaption> */}
                     </figure>
                     
                     {/* intro text */}
