@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Footer from '../components/footer';
 import Header from '../components/header';
+import Card from '../components/card';
 
 export default function HomePage() {
     
@@ -37,9 +38,36 @@ export default function HomePage() {
 
                 {/* section for industry experience */}
                 <section id={styles.industry}>
+
                     <h2> Industry Experience</h2>
+
+                    <Card 
+                        name="LitePoint"
+                        position="Software Engineer Cloud Intern"
+                        exp={["Currently working on a project to develop a cloud-based solution for the LitePoint IQxel-MW 7G test system", 
+                              "Developing web services on Azure using node.js and express.js to build a online tester demo", 
+                              "Tech Stack - Azure, node.js, express.js, React, HTML, CSS, JavaScript, Docker, Kubernetes"]}
+                        image="/logos/litepoint.svg"
+                        start="June 2023"
+                        end="Present"
+                    />
+
+                    <Card 
+                        name="Cisco Systems"
+                        position="Software Engineer"
+                        exp={["Developed microservices using Java for the Optimal Software Version Recommendation team",
+                                "Worked on projects with high impact in the Business Critical Services team",
+                                "Designed and implemented an Authentication framework for the CX Cloud",
+                                "Collaborated with the security team to ensure compliance with industry best practices",
+                                "Gained exposure to working in a large-scale enterprise environment and handling the complexities associated with delivering high-quality software solutions",
+                                "Tech Stack - Golang, Python, Java, Docker, Kubernetes, AWS, OAuth2.0, OPA"
+                            ]}
+                        image="/logos/cisco.png"
+                        start="July 2019"
+                        end="July 2022"
+                    />
                     
-                    <p> Before joining UCSD, I had the opportunity to work as a Software Engineer at Cisco Systems, where I gained valuable industry experience. During my 3-year tenure at Cisco, I was primarily involved in the development of the Cisco CX Cloud, a Software-as-a-Service (SaaS) offering catering to a diverse range of Cisco customers.
+                    {/* <p> Before joining UCSD, I had the opportunity to work as a Software Engineer at Cisco Systems, where I gained valuable industry experience. During my 3-year tenure at Cisco, I was primarily involved in the development of the Cisco CX Cloud, a Software-as-a-Service (SaaS) offering catering to a diverse range of Cisco customers.
                     In the initial phase of my role, I dedicated 8 months to the Optimal Software Version Recommendation team, where I was responsible for developing microservices using Java. This experience allowed me to strengthen my Java programming skills and deepen my understanding of building scalable and efficient software solutions. 
                     </p>
                     
@@ -49,21 +77,51 @@ export default function HomePage() {
                     
                     <p> My experience at Cisco Systems has equipped me with a strong foundation in software engineering principles, agile development methodologies, and collaborative teamwork. It has also provided me with exposure to working in a large-scale enterprise environment and handling the complexities associated with delivering high-quality software solutions.
                     I am excited to bring the skills and expertise gained from my previous experiences to contribute to new and challenging projects, leveraging my technical acumen and problem-solving abilities to drive innovation and deliver impactful solutions.
-                    </p>
+                    </p> */}
                 </section>
                 
                 {/* section for research experience */}
                 <section id={styles.research}> 
                     <h2>Research Experience</h2>
-                    <p>I have the privilege of working in the Carbonless Cloud Computing lab on an exciting project called GreenGrader. Our team is dedicated to developing a platform that facilitates carbon-aware scheduling of autograder containers on various cloud computing platforms.
-                       The primary focus of our work is to address the environmental impact associated with cloud computing. By integrating carbon-aware scheduling techniques into our platform, we aim to optimize the allocation of computing resources while minimizing carbon emissions. This involves considering factors such as renewable energy availability, server utilization, and energy efficiency when scheduling autograder containers.
-                       Our goal is to provide a sustainable solution for the autograding process, enabling educational institutions and organizations to efficiently utilize cloud resources while reducing their carbon footprint. By leveraging the power of cloud computing in an environmentally conscious manner, we aim to contribute to a more sustainable future.
-                    </p>
+
+                    <Card 
+                        name="Systems and Networking Group"
+                        position="Graduate Research Assistant"
+                        exp={["I have the privilege of working in the Carbonless Cloud Computing lab on an exciting project called GreenGrader. Our team is dedicated to developing a platform that facilitates carbon-aware scheduling of autograder containers on various cloud computing platforms.", 
+                              "The primary focus of our work is to address the environmental impact associated with cloud computing. By integrating carbon-aware scheduling techniques into our platform, we aim to optimize the allocation of computing resources while minimizing carbon emissions. This involves considering factors such as renewable energy availability, server utilization, and energy efficiency when scheduling autograder containers.", 
+                              "Our goal is to provide a sustainable solution for the autograding process, enabling educational institutions and organizations to efficiently utilize cloud resources while reducing their carbon footprint. By leveraging the power of cloud computing in an environmentally conscious manner, we aim to contribute to a more sustainable future.",
+                              "Tech Stack - Python, Bash Scripting, Docker, Kubernetes, PostgreSQL, AWS"
+                            ]}
+                        image="/logos/ucsd.png"
+                        start="April 2023"
+                        end="Present"
+                    />
+
                 </section>
                 
                 {/* section for teaching experience */}
                 <section id={styles.teaching}>
                     <h2>Teaching</h2>
+                    <Card 
+                        name="CSE 110 Software Engineering"
+                        position="Graduate Teaching Assistant"
+                        exp={["I am currently working as a Teaching Assistant for CSE 110 Software Engineering, a course that focuses on the software development lifecycle and the various tools and techniques used in the process. As a TA, I am responsible for conducting weekly lab sessions, grading assignments, and assisting students with any questions or concerns they may have.",
+                                "This role has allowed me to gain valuable experience in teaching and mentoring students, as well as develop my communication and leadership skills. I am excited to continue working with the students and faculty to ensure a successful and enriching learning experience for everyone."
+                            ]}
+                        image="/logos/ucsd.png"
+                        start="Fall 2022"
+                        end=" Spring 2023"
+                    />
+
+                    <Card 
+                        name="CSE 134 Web Client Languages"
+                        position="Graduate Teaching Assistant"
+                        exp={["This is front-end technical course that aims to teach the students HTML, CSS and JavaScript.",
+                               "As a TA, I am responsible for conducting weekly office hours, grading assignments, and assisting students with any questions or concerns they may have."]}
+                        image="/logos/ucsd.png"
+                        start="January 2023"
+                        end="March 2023"
+                    />  
                     <ul>
                         <li>CSE 110 Software Engineering - Fall 2022 and Spring 2023</li>
                         <li>CSE 134B Web Client Languages - Winter 2023</li>

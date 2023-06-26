@@ -1,0 +1,23 @@
+.card {
+    padding: 4%;
+    /* border: 1px solid #ccc;
+    border-radius: 10px; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    font-style: italic;
+    padding-top: 1%;
+}
+.companylogo {
+    width: 3.5rem;
+    height: 2rem;
+}
+
+.ul li {
+    list-style-type: circle;
+}
