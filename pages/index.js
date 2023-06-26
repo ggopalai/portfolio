@@ -22,7 +22,7 @@ export default function HomePage() {
                     
                     {/* intro text */}
                     <intro-text id={styles.introtext}>
-                        <p>Welcome to my website! I'm a passionate graduate student at UCSD, currently pursuing a Masters in Computer Science and Engineering with a specialization in Computer Systems. My primary areas of interest lie in Cloud Computing, Distributed Systems, and Computer Networks.</p>
+                        <p>Welcome to my website! I'm a passionate graduate student at UC San Diego, currently pursuing a Masters in Computer Science and Engineering with a specialization in Computer Systems. My primary areas of interest lie in Cloud Computing, Distributed Systems, and Computer Networks.</p>
                         <p>I am currently working with LitePoint Corp. as a SWE Cloud Intern. </p>
                         <p>Prior to joining UCSD, I gained valuable experience as a Software Engineer at Cisco, where I worked for approximately 3 years. This role allowed me to contribute to various projects and expand my skills in software development, problem-solving, and collaboration within a tech-driven environment.</p>
                         <p>I hold a bachelor's degree from R.V. College of Engineering in Bangalore, which provided me with a strong foundation in computer science.</p>
@@ -49,7 +49,7 @@ export default function HomePage() {
 
                     <Card 
                         name="Cisco Systems"
-                        position="Software Engineer"
+                        position="Software Engineer (Full Time)"
                         exp={["Developed microservices using Java for the Optimal Software Version Recommendation team",
                                 "Worked on projects with high impact in the Business Critical Services team",
                                 "Designed and implemented an Authentication framework for the CX Cloud",
@@ -84,7 +84,7 @@ export default function HomePage() {
                 
                 {/* section for teaching experience */}
                 <section id={styles.teaching}>
-                    <h2>Teaching</h2>
+                    <h2>Teaching Experience</h2>
                     <Card 
                         name="CSE 110 Software Engineering"
                         position="Graduate Teaching Assistant"
