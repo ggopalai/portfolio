@@ -22,7 +22,8 @@ export default function HomePage() {
                     
                     {/* intro text */}
                     <intro-text id={styles.introtext}>
-                        <p>Welcome to my website! I'm a passionate graduate student at UC San Diego, currently pursuing a Masters in Computer Science and Engineering with a specialization in Computer Systems. My primary areas of interest lie in Cloud Computing, Distributed Systems, and Computer Networks.</p>
+                        <p>Welcome to my website! I'm a passionate graduate student at UC San Diego, currently pursuing a Masters in Computer Science with a specialization in Computer Systems. 
+                           My primary areas of interest lie in Cloud Computing, Distributed Systems, and Computer Networks.</p>
                         <p>I am currently working with LitePoint Corp. as a SWE Cloud Intern. </p>
                         <p>Prior to joining UCSD, I gained valuable experience as a Software Engineer at Cisco, where I worked for approximately 3 years. This role allowed me to contribute to various projects and expand my skills in software development, problem-solving, and collaboration within a tech-driven environment.</p>
                         <p>I hold a bachelor's degree from R.V. College of Engineering in Bangalore, which provided me with a strong foundation in computer science.</p>
@@ -39,9 +40,9 @@ export default function HomePage() {
                     <Card 
                         name="LitePoint"
                         position="Software Engineer Cloud Intern"
-                        exp={["Currently working on a project to develop a cloud-based solution for the LitePoint IQxel-MW 7G test system", 
-                              "Developing web services on Azure using node.js and express.js to build a online tester demo", 
-                              "Tech Stack - Azure, node.js, express.js, React, HTML, CSS, JavaScript, Docker, Kubernetes"]}
+                        exp={["Currently working on a project to develop a cloud-based solution for the LitePoint IQxel-MW 7G test system.", 
+                              "Developing web services on Azure using Node.js and Express.js to build a online tester demo application.", 
+                              "Tech Stack - Azure, Node.js, Express.js, React, HTML, CSS, JavaScript, Docker, Kubernetes, MongoDB"]}
                         image="/logos/litepoint.svg"
                         start="June 2023"
                         end="Present"
@@ -50,12 +51,13 @@ export default function HomePage() {
                     <Card 
                         name="Cisco Systems"
                         position="Software Engineer (Full Time)"
-                        exp={["Developed microservices using Java for the Optimal Software Version Recommendation team",
-                                "Worked on projects with high impact in the Business Critical Services team",
-                                "Designed and implemented an Authentication framework for the CX Cloud",
-                                "Collaborated with the security team to ensure compliance with industry best practices",
-                                "Gained exposure to working in a large-scale enterprise environment and handling the complexities associated with delivering high-quality software solutions",
-                                "Tech Stack - Golang, Python, Java, Docker, Kubernetes, AWS, OAuth2.0, OPA"
+                        exp={[
+                                "Designed and implemented an Authentication/Authorization framework for the CX Cloud.",
+                                "Developed microservices using Java for the Optimal Software Version Recommendation team.",
+                                "Worked on projects with high impact in the Business Critical Services team.",
+                                "Collaborated with the security team to ensure compliance with industry best practices.",
+                                "Gained exposure to working in a large-scale enterprise environment and handling the complexities associated with delivering high-quality software solutions.",
+                                "Tech Stack - Golang, Python, Java, Docker, Kubernetes, AWS, OAuth2.0, OPA, Okta"
                             ]}
                         image="/logos/cisco.png"
                         start="July 2019"
@@ -88,8 +90,8 @@ export default function HomePage() {
                     <Card 
                         name="CSE 110 Software Engineering"
                         position="Graduate Teaching Assistant"
-                        exp={["I am currently working as a Teaching Assistant for CSE 110 Software Engineering, a course that focuses on the software development lifecycle and the various tools and techniques used in the process. As a TA, I am responsible for conducting weekly lab sessions, grading assignments, and assisting students with any questions or concerns they may have.",
-                                "This role has allowed me to gain valuable experience in teaching and mentoring students, as well as develop my communication and leadership skills. I am excited to continue working with the students and faculty to ensure a successful and enriching learning experience for everyone."
+                        exp={["Served as a Teaching Assistant for CSE 110 Software Engineering, a course that focuses on the software development lifecycle and the various tools and techniques used in the process. As a TA, I was responsible for conducting weekly lab sessions, grading assignments, and assisting students with any questions or concerns they may have.",
+                                "This role has allowed me to gain valuable experience in teaching and mentoring students, as well as develop my communication and leadership skills."
                             ]}
                         image="/logos/ucsd.png"
                         start="Fall 2022"
@@ -99,8 +101,9 @@ export default function HomePage() {
                     <Card 
                         name="CSE 134 Web Client Languages"
                         position="Graduate Teaching Assistant"
-                        exp={["This is front-end technical course that aims to teach the students HTML, CSS and JavaScript.",
-                               "As a TA, I am responsible for conducting weekly office hours, grading assignments, and assisting students with any questions or concerns they may have."]}
+                        exp={["This is a front-end technical course that aims to teach the students HTML, CSS and JavaScript.",
+                               "As a TA, I was responsible for conducting weekly office hours, grading assignments, and assisting students with any questions or concerns they may have."
+                            ]}
                         image="/logos/ucsd.png"
                         start="January 2023"
                         end="March 2023"
