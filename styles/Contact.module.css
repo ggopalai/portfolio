@@ -9,6 +9,7 @@
 #actualform {
     padding: 2rem 10rem;
     background-color: #cccccc;
+    border-radius: 0.5rem;
 }
 
 .fieldset {
