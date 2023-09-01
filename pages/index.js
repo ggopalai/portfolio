@@ -67,7 +67,7 @@ export default function HomePage() {
                 
                 {/* section for research experience */}
                 <section id={styles.research}> 
-                    <h2>Research</h2>
+                    <h2>Research Experience</h2>
 
                     <Card 
                         name="Systems and Networking Group"
@@ -86,7 +86,7 @@ export default function HomePage() {
                 
                 {/* section for teaching experience */}
                 <section id={styles.teaching}>
-                    <h2>Teaching</h2>
+                    <h2>Teaching Experience</h2>
                     <Card 
                         name="CSE 110 Software Engineering"
                         position="Graduate Teaching Assistant"
