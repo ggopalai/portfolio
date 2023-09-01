@@ -11,7 +11,7 @@ export default function Header() {
 
     return (
         <header id={styles.header}>
-            <div id={styles.name}>Gagan Gopalaiah</div>
+            <div id={styles.name} onClick={() => { window.location.href = '/'}} >Gagan Gopalaiah</div>
             <div id="menu-icon" className={sidebarClasses} onClick={toggleSidebar}>
                 <div className={styles.bar}></div>
                 <div className={styles.bar}></div>
