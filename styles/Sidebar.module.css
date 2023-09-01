@@ -30,3 +30,14 @@
 .listItem a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 1050px) {
+    .sidebar {
+        display: none;
+    }
+
+    .sidebar.active {
+        display: flex;
+        flex-direction: column;
+    }
+}
