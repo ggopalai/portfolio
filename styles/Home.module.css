@@ -30,6 +30,12 @@
   align-items: flex-start;
 }
 
+@media (max-width: 1050px) {
+  #intro {
+    flex-direction: column;
+  }
+}
+
 #industry, #research, #teaching {
   padding: 1.5%;
   /* margin-top: 1rem; */
