@@ -1,7 +1,23 @@
 .kk {
-    max-width: 100%;
+    width: 49%;
+    height: auto;
+}
+
+.kkContainer {
+    display: flex;
+    justify-content: space-between;
 }
 
 .section {
     text-decoration: underline;
+}
+
+.tobyContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tobyContainer img {
+    width: 49%;
+    height: auto;
 }

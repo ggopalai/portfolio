@@ -22,10 +22,10 @@ export default function HomePage() {
                     
                     {/* intro text */}
                     <intro-text id={styles.introtext}>
-                        <p>Welcome to my website! I'm a passionate graduate student at UC San Diego, currently pursuing a Masters in Computer Science with a specialization in Computer Systems. 
+                        <p>Welcome to my website! I'm a graduate student at UC San Diego, currently pursuing a Masters in Computer Science with a specialization in Computer Systems. 
                            My primary areas of interest lie in Cloud Computing, Distributed Systems, and Computer Networks.</p>
                         <p>I am currently working with LitePoint Corp. as a SWE Cloud Intern. </p>
-                        <p>Prior to joining UCSD, I gained valuable experience as a Software Engineer at Cisco, where I worked for approximately 3 years. This role allowed me to contribute to various projects and expand my skills in software development, problem-solving, and collaboration within a tech-driven environment.</p>
+                        <p>Prior to joining UC San Diego, I gained valuable experience as a Software Engineer at Cisco, where I worked for 3 years. This role allowed me to contribute to various projects and expand my skills in software development, problem-solving, and collaboration within a tech-driven environment.</p>
                         <p>I hold a bachelor's degree from R.V. College of Engineering in Bangalore, which provided me with a strong foundation in computer science.</p>
                         <p>I am excited to showcase my portfolio and share my experiences with you. Feel free to explore and get in touch with me for any further inquiries or opportunities. Thank you for visiting!</p>
                     </intro-text>
@@ -40,9 +40,9 @@ export default function HomePage() {
                     <Card 
                         name="LitePoint"
                         position="Software Engineer Cloud Intern"
-                        exp={["Currently working on a project to develop a cloud-based solution for the LitePoint IQxel-MW 7G test system.", 
-                              "Developing web services on Azure using Node.js and Express.js to build a online tester demo application.", 
-                              "Tech Stack - Azure, Node.js, Express.js, React, HTML, CSS, JavaScript, Docker, Kubernetes, MongoDB"]}
+                        exp={["Currently working on a project to remotely demo LitePoint's testers to potential customers.", 
+                              "Developing a full-stack application on Azure using Node.js and Express.js backend with a Next.js GUI, while managing deployments using Docker and Kubernetes.", 
+                              "Tech Stack - Microsoft Azure, Node.js, Express.js, React, HTML, CSS, JavaScript, Docker, Kubernetes, CosmosDB"]}
                         image="/logos/litepoint.svg"
                         start="June 2023"
                         end="Present"
@@ -67,14 +67,14 @@ export default function HomePage() {
                 
                 {/* section for research experience */}
                 <section id={styles.research}> 
-                    <h2>Research Experience</h2>
+                    <h2>Research</h2>
 
                     <Card 
                         name="Systems and Networking Group"
                         position="Graduate Research Assistant"
-                        exp={["I have the privilege of working in the Carbonless Cloud Computing lab on an exciting project called GreenGrader. Our team is dedicated to developing a platform that facilitates carbon-aware scheduling of autograder containers on various cloud computing platforms.", 
-                              "The primary focus of our work is to address the environmental impact associated with cloud computing. By integrating carbon-aware scheduling techniques into our platform, we aim to optimize the allocation of computing resources while minimizing carbon emissions. This involves considering factors such as renewable energy availability, server utilization, and energy efficiency when scheduling autograder containers.", 
-                              "Our goal is to provide a sustainable solution for the autograding process, enabling educational institutions and organizations to efficiently utilize cloud resources while reducing their carbon footprint. By leveraging the power of cloud computing in an environmentally conscious manner, we aim to contribute to a more sustainable future.",
+                        exp={["I'm part of the Carbonless Cloud Computing lab, contributing to the GreenGrader project..", 
+                              "Our platform optimizes autograder container scheduling across cloud platforms with a focus on reducing carbon emissions.", 
+                              "Our goal is to provide a sustainable solution for the autograding process, enabling educational institutions and organizations to efficiently utilize cloud resources while reducing their carbon footprint.",
                               "Tech Stack - Python, Bash Scripting, Docker, Kubernetes, PostgreSQL, AWS"
                             ]}
                         image="/logos/ucsd.png"
@@ -86,7 +86,7 @@ export default function HomePage() {
                 
                 {/* section for teaching experience */}
                 <section id={styles.teaching}>
-                    <h2>Teaching Experience</h2>
+                    <h2>Teaching</h2>
                     <Card 
                         name="CSE 110 Software Engineering"
                         position="Graduate Teaching Assistant"
