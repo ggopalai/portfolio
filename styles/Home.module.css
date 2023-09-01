@@ -23,17 +23,27 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
 
+@media (max-width: 1050px) {
+  #intro {
+    flex-direction: column;
+  }
+
+  #dp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #dp img {
+    width: 60%;  
+  }
+}
+
 #introtext {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: flex-start;
-}
-
-@media (max-width: 1050px) {
-  #intro {
-    flex-direction: column;
-  }
 }
 
 #industry, #research, #teaching {
