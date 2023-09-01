@@ -21,3 +21,25 @@
     width: 49%;
     height: auto;
 }
+
+/* Media queries for tablet */ 
+@media (max-width: 1050px) {
+    .kkContainer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .kk {
+        width: 100%;
+    }
+
+    .tobyContainer {
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+
+    .tobyContainer img {
+        width: 100%;
+    }
+}
