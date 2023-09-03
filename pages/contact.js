@@ -2,6 +2,7 @@ import Header from '../components/header'
 import styles from '../styles/Contact.module.css'
 import Head from 'next/head'
 import Socials from '../components/socials'
+import Footer from '../components/footer'
 import { useState } from 'react'
 
 export default function Contact() {
@@ -52,13 +53,13 @@ export default function Contact() {
             <Header />
             <main id={styles.main}>
                 <section id={styles.mycontact}>
-                    <p>Feel free to shoot me an email at <em>gagandeepgopalaiah@gmail.com</em> or connect via my socials. </p>
-                    <Socials />
+                    {/* <p>Feel free to shoot me an email at <em>gagandeepgopalaiah@gmail.com</em> or connect via my socials. </p> */}
+                    {/* <Socials /> */}
                 </section>
 
                 <section id={styles.form}>
                     <form id={styles.actualform} onSubmit={handleSubmit}>
-                    <p>Or, you can fill out this form and I'll get back to you as soon as possible!</p>
+                    <p>Fill out this form and I'll get back to you as soon as possible, or shoot me an email at gagandeepgopalaiah@gmail.com.</p>
                         <fieldset className={styles.fieldset}>
                             <legend className={styles.legend}>Contact Information</legend>
                             <div>
@@ -110,6 +111,7 @@ export default function Contact() {
                     </form>
                 </section>
             </main>
+            <Footer />
         </div>
     )
 }
