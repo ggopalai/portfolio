@@ -2,3 +2,20 @@
     text-decoration: underline;
     color: rgb(12, 109, 200);
 }
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.gridItem {
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
