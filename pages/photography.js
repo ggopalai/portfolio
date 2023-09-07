@@ -30,11 +30,10 @@ export default function Photography() {
 
     return (
         <div id={style.container}>
-            <Head>Photography</Head>
+            <Head>
+                <title>Photography</title>
+            </Head>
             <Header />
-            {/* <main id={style.main}>
-                This page is currently being built. Please check back later! In the meantime, you can check out my <a href="https://www.instagram.com/the_hippiemonk/" target="_blank" id={style.link}>Instagram</a> for some of my photography.
-            </main> */}
             <div className={style.gridContainer}>
                 {imageUrls.map((url, index) => (
                     <div key={index} className={style.gridItem}>

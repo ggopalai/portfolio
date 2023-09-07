@@ -57,7 +57,7 @@
 #content {
   flex-grow: 1; /* Take remaining space */
   flex-basis: 0; /* Allow content to shrink */
-  /* padding: 20px; */
+  margin-top: 1rem;
 }
 
 #dp {
@@ -72,5 +72,10 @@
   max-width: 100%;
   max-height: 500px;
   height: auto;
+}
+
+#socialsContainer {
+  display: flex;
+  justify-content: center;
 }
  

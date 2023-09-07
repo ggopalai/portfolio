@@ -49,7 +49,9 @@ export default function Contact() {
 
     return (
         <div id={styles.container}>
-            <Head>Contact</Head>
+            <Head>
+                <title>Contact</title>
+            </Head>
             <Header />
             <main id={styles.main}>
                 <section id={styles.mycontact}>

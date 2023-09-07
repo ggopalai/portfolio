@@ -9,7 +9,9 @@ import Footer from '../components/footer';
 export default function About() {
     return (
         <div id={mainStyles.container}>
-            <Head>About</Head>
+            <Head>
+                <title>About</title>
+            </Head>
             <Header />
             <main id={mainStyles.main}>
                 <section id={mainStyles.section}>

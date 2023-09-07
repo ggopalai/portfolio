@@ -3,12 +3,15 @@ import styles from '../styles/Home.module.css';
 import Footer from '../components/footer';
 import Header from '../components/header';
 import Card from '../components/card';
+import Socials from '../components/socials';
 
 export default function HomePage() {
     
     return (
         <div className={styles.container}> 
-            <Head>Home</Head>
+            <Head>
+                <title>Gagan Gopalaiah</title>
+            </Head>
             <Header />
             <main id={styles.content}>
 
@@ -28,6 +31,9 @@ export default function HomePage() {
                         <p>Prior to joining UC San Diego, I gained valuable experience as a Software Engineer at Cisco, where I worked for 3 years. This role allowed me to contribute to various projects and expand my skills in software development, problem-solving, and collaboration within a tech-driven environment.</p>
                         <p>I hold a bachelor's degree from R.V. College of Engineering in Bangalore, which provided me with a strong foundation in computer science.</p>
                         <p>I am excited to showcase my portfolio and share my experiences with you. Feel free to explore and get in touch with me for any further inquiries or opportunities. Thank you for visiting!</p>
+                        <div id={styles.socialsContainer}>
+                            < Socials />
+                        </div>
                     </intro-text>
 
                 </section>
