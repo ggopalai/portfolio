@@ -54,14 +54,10 @@ export default function Contact() {
             </Head>
             <Header />
             <main id={styles.main}>
-                <section id={styles.mycontact}>
-                    {/* <p>Feel free to shoot me an email at <em>gagandeepgopalaiah@gmail.com</em> or connect via my socials. </p> */}
-                    {/* <Socials /> */}
-                </section>
 
                 <section id={styles.form}>
                     <form id={styles.actualform} onSubmit={handleSubmit}>
-                    <p>Fill out this form and I'll get back to you as soon as possible, or shoot me an email at gagandeepgopalaiah@gmail.com.</p>
+                    <p id={styles.intro}>Fill out this form and I'll get back to you as soon as possible, or shoot me an email at gagandeepgopalaiah@gmail.com.</p>
                         <fieldset className={styles.fieldset}>
                             <legend className={styles.legend}>Contact Information</legend>
                             <div>
