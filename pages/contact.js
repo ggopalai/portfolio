@@ -105,7 +105,9 @@ export default function Contact() {
                                 />
                             </div>
                         </fieldset>
-                        <button id={styles.submitButton}>Submit</button>
+                        <div id={styles.buttonContainer}>
+                            <button id={styles.submitButton}>Submit</button>
+                        </div>
                     </form>
                 </section>
             </main>
