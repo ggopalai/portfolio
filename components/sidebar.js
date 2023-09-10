@@ -2,9 +2,10 @@ import styles from '../styles/Sidebar.module.css'
 
 export default function Sidebar({sidebarVisible}) {
 
-    const sidebarClasses = `${styles.sidebar} ${sidebarVisible ? styles.active : ''}`;
+    // const sidebarClasses = `${styles.sidebar} ${sidebarVisible ? styles.active : ''}`;
     return (
-        <nav className={sidebarClasses}>
+        // <nav className={sidebarClasses}>
+            <nav className={styles.sidebar}>
             <ul className={styles.unlist}>
                 <li className={styles.listItem}>
                     <a href='/'>Home</a>

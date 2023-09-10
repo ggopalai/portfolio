@@ -42,7 +42,12 @@
     display: block;
   }
 
-  /* .menuIconActive {
-    display: none;
-  } */
+  #header {
+    display: block;
+  }
+
+  #name {
+    width: 100%;
+    justify-content: center;
+  }
 }

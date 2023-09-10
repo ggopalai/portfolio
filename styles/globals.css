@@ -23,7 +23,7 @@ body {
   margin: 0;
   font-family: 'Montserrat-Regular', sans-serif;
   font-size: 1rem;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
 }
 
 a {
@@ -56,3 +56,11 @@ ul {
 main {
   padding: 0 20%;
 }
+
+/* reducing padding on smaller screens */
+@media (max-width: 1050px) {
+  main {
+    padding: 0 10%;
+  }
+}
+
