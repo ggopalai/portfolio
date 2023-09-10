@@ -12,46 +12,20 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* gap: 2rem; */
 }
 
 #intro {
   display: flex;
-  /* border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 2.5%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
-}
-
-@media (max-width: 1050px) {
-  #intro {
-    flex-direction: column;
-  }
-
-  #dp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #dp img {
-    width: 60%;  
-  }
 }
 
 #introtext {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: flex-start;
 }
 
 #industry, #research, #teaching {
   padding: 1.5%;
-  /* margin-top: 1rem; */
-  /* border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
 
 #content {
@@ -78,4 +52,19 @@
   display: flex;
   justify-content: center;
 }
- 
+
+@media (max-width: 1050px) {
+  #intro {
+    flex-direction: column;
+  }
+
+  #dp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #dp img {
+    width: 50%;  
+  }
+}

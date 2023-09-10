@@ -18,9 +18,9 @@
     /* align-items: center; */
 }
 
-.sidebar li {
+/* .sidebar li {
     margin-bottom: 1rem;
-}
+} */
 
 .listItem a {
     text-decoration: none;
@@ -34,5 +34,11 @@
 @media (max-width: 1050px) {
     .sidebar {
         width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .listItem {
+        font-size: 0.9rem;
     }
 }
