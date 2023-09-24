@@ -1,7 +1,6 @@
 import Header from '../components/header'
 import styles from '../styles/Contact.module.css'
 import Head from 'next/head'
-import Socials from '../components/socials'
 import Footer from '../components/footer'
 import { useState } from 'react'
 
@@ -25,26 +24,28 @@ export default function Contact() {
     }
 
     // Event handler for onSubmit event
-    function handleSubmit(event) {
+    async function handleSubmit(event) {
         event.preventDefault();
 
-        // Send form data to the API
-        fetch('/api/contact', {
-            method: 'POST',
-            headers: {
-            'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(formData),
-        })
-            .then(response => response.json())
-            .then(data => {
-            // Handle the response from the API
-            console.log(data);
-            })
-            .catch(error => {
-            // Handle any errors
-            console.error('Error:', error);
+        try {
+            const response = await fetch('api/sendEmail', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
             });
+
+            const data = await response.json();
+            if (response.ok) {
+                console.log('Email sent successfully', data);
+                alert('Email sent.');
+            } else {
+                console.log('Error while sending email', data);
+            }
+        } catch (error) {
+            console.log("Error while submitting form", error);
+        }
         }
 
     return (
