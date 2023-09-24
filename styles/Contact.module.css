@@ -59,5 +59,9 @@
 }
 
 #submitButton:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(117, 113, 113);
+}
+
+#emailSuccess {
+    margin: 5rem 20%;
 }

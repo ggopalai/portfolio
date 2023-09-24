@@ -30,7 +30,7 @@ export default function HomePage() {
                         <p>I am currently interning with LitePoint Corp. as a SWE Cloud Intern. </p>
                         <p>Prior to joining UC San Diego, I gained valuable experience as a Software Engineer at Cisco, where I worked for 3 years. This role allowed me to contribute to various projects and expand my skills in software development, problem-solving, and collaboration within a tech-driven environment.</p>
                         <p>I hold a bachelor's degree from R.V. College of Engineering in Bangalore, which provided me with a solid foundation in computer science.</p>
-                        <p>Feel free to explore and get in touch with me for any further inquiries or job opportunities. (I am actively looking for full-time roles for Spring 2024). Thank you for visiting!</p>
+                        <p>Feel free to explore and get in touch with me for any further inquiries or job opportunities. (I am actively looking for full-time roles with start dates after March 2024). Thank you for visiting!</p>
                         <div id={styles.socialsContainer}>
                             < Socials />
                         </div>
@@ -122,9 +122,8 @@ export default function HomePage() {
                 </section>
 
                 {/* Section for projects */}
-                <section id={styles.projects}>
-                    
-                </section>
+                {/* <section id={styles.projects}>
+                </section> */}
                 
                 <Footer />
             </main>

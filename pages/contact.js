@@ -14,6 +14,8 @@ export default function Contact() {
         suggestions: '',
     });
 
+    const [showForm, setShowForm] = useState(true);
+
     // Event handler for onChange event
     function handleChange(event) {
         const {name, value} = event.target;
@@ -39,12 +41,14 @@ export default function Contact() {
             const data = await response.json();
             if (response.ok) {
                 console.log('Email sent successfully', data);
-                alert('Email sent.');
+                setShowForm(false);
             } else {
                 console.log('Error while sending email', data);
+                alert('An error occurred, please try again.');
             }
         } catch (error) {
             console.log("Error while submitting form", error);
+            alert('An error occurred, please try again.');
         }
         }
 
@@ -56,7 +60,7 @@ export default function Contact() {
             <Header />
             <main id={styles.main}>
 
-                <section id={styles.form}>
+                {showForm && <section id={styles.form}>
                     <form id={styles.actualform} onSubmit={handleSubmit}>
                     <p id={styles.intro}>Fill out this form and I'll get back to you as soon as possible, or shoot me an email at gagandeepgopalaiah@gmail.com.</p>
                         <fieldset className={styles.fieldset}>
@@ -110,7 +114,13 @@ export default function Contact() {
                             <button id={styles.submitButton}>Submit</button>
                         </div>
                     </form>
-                </section>
+                </section>}
+
+                {  !showForm && 
+                    <section id={styles.emailSuccess}>
+                        <p>Thank you for your message! I will get back to you as soon as possible.</p>
+                    </section>
+                }
             </main>
             <Footer />
         </div>
