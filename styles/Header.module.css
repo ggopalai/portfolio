@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'Arvo-Regular';
     src: url('/fonts/Arvo/Arvo-Regular.ttf');
-  }
-  
+}
 
 #header {
     display: flex;
@@ -11,7 +10,7 @@
     color: white;
     /* margin-bottom: 2rem; */
     /* box-shadow: 5px 5px 2px -2px rgba(0,0,0,.2); */
-  }
+}
 
 #name {
     flex: 1;
@@ -21,20 +20,19 @@
     align-items: center;
     font-family: 'Arvo-Regular', sans-serif;
     font-size: 2rem;
-  }
-
+}
 
 @media (max-width: 1050px) {
-  .menuIcon {
-    display: block;
-  }
+    .menuIcon {
+        display: block;
+    }
 
-  #header {
-    display: block;
-  }
+    #header {
+        display: block;
+    }
 
-  #name {
-    width: 100%;
-    justify-content: center;
-  }
+    #name {
+        width: 100%;
+        justify-content: center;
+    }
 }

@@ -1,5 +1,5 @@
-import styles from '../styles/Footer.module.css'
-import Socials from './socials'
+import styles from '../styles/Footer.module.css';
+import Socials from './socials';
 
 export default function Footer() {
     return (
@@ -7,5 +7,5 @@ export default function Footer() {
             <p>© 2023 Gagan Gopalaiah</p>
             <Socials />
         </footer>
-    )
+    );
 }

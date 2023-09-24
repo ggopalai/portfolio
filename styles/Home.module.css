@@ -1,75 +1,77 @@
 @font-face {
-  font-family: 'Roboto-Slab-Medium';
-  src: url('/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf');
+    font-family: 'Roboto-Slab-Medium';
+    src: url('/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf');
 }
 
 @font-face {
-  font-family: 'Roboto-Slab-Regular';
-  src: url('/fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf');
+    font-family: 'Roboto-Slab-Regular';
+    src: url('/fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf');
 }
 
 .container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #intro {
-  display: flex;
+    display: flex;
 }
 
 #introtext {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-#industry, #research, #teaching {
-  padding: 1.5%;
+#industry,
+#research,
+#teaching {
+    padding: 1.5%;
 }
 
 #content {
-  flex-grow: 1; /* Take remaining space */
-  flex-basis: 0; /* Allow content to shrink */
-  margin-top: 1rem;
+    flex-grow: 1; /* Take remaining space */
+    flex-basis: 0; /* Allow content to shrink */
+    margin-top: 1rem;
 }
 
 #dp {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #dp img {
-  border-radius: 2rem;
-  max-width: 100%;
-  max-height: 500px;
-  height: auto;
+    border-radius: 2rem;
+    max-width: 100%;
+    max-height: 500px;
+    height: auto;
 }
 
 #socialsContainer {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 1050px) {
-  #intro {
-    flex-direction: column;
-  }
+    #intro {
+        flex-direction: column;
+    }
 
-  #dp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0;
-  }
-  
-  #dp img {
-    width: 50%;  
-  }
+    #dp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
 
-  #socialsContainer {
-    width: 100%;
-  }
+    #dp img {
+        width: 50%;
+    }
+
+    #socialsContainer {
+        width: 100%;
+    }
 }
