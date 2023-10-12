@@ -22,14 +22,14 @@ export default function About() {
                         pleasure in life's little treasures. I try to actively
                         practise Stoicism, exploring life's deeper questions in
                         a fast-paced world. While I can't sing or dance to save
-                        my life, I more than make up for it with my appreciation
-                        for cooking. Living solo in the USA has transformed me
-                        into a culinary enthusiast. I'm all about savoring good
-                        food, but I also balance it with my love for lifting
-                        weights – currently deadlifting up to 165 kgs. And let's
-                        not forget fondness for dogs - these furry companions
-                        are, without a doubt, a gift from the heavens. Welcome
-                        to my world!{' '}
+                        my life, I more than make up for it with my zeal for
+                        cooking. Living solo in the USA has transformed me into
+                        a culinary enthusiast. I'm all about savoring good food,
+                        but I also balance it with my love for lifting weights –
+                        currently deadlifting up to 165 kgs. And let's not
+                        forget fondness for dogs - these furry companions are,
+                        without a doubt, a gift from the heavens. Welcome to my
+                        world!
                     </p>
                     <h4 className={styles.section}>Love for outdoors</h4>
                     <p>

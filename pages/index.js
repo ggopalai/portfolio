@@ -34,8 +34,8 @@ export default function HomePage() {
                             Networks.
                         </p>
                         <p>
-                            I am currently interning with LitePoint Corp. as a
-                            SWE Cloud Intern.{' '}
+                            I recently completed an internship with LitePoint
+                            Corp. as a Software Cloud Intern.
                         </p>
                         <p>
                             Prior to joining UC San Diego, I gained valuable
@@ -76,14 +76,14 @@ export default function HomePage() {
                         ]}
                         image="/logos/litepoint.svg"
                         start="June 2023"
-                        end="Present"
+                        end="Sept 2023"
                     />
 
                     <Card
                         name="Cisco Systems"
                         position="Software Engineer (Full Time)"
                         exp={[
-                            'My significant contribution involves developing an Authentication/Authorization framework for the Cisco Customer Experience Cloud.',
+                            'My most significant contribution was developing an Authentication/Authorization framework for the Cisco Customer Experience Cloud.',
                             'Developed microservices in Python and Java for multiple customer-facing teams (SW Version Recommendation and Business Critical Services teams)',
                             'Collaborated with the security team to ensure compliance with industry best practices.',
                             'Tech Stack - Golang, Python, Java, Docker, Kubernetes, AWS, OAuth2.0, OPA, Okta',
