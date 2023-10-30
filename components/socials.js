@@ -12,6 +12,7 @@ export default function Socials() {
                         <img
                             src="/logos/linkedin.svg"
                             className={styles.logoimages}
+                            alt="LinkedIn logo in svg format"
                         ></img>
                     </a>
                 </li>
@@ -20,6 +21,7 @@ export default function Socials() {
                         <img
                             src="/logos/github.svg"
                             className={styles.logoimages}
+                            alt="Github logo in svg format"
                         ></img>
                     </a>
                 </li>
@@ -31,6 +33,7 @@ export default function Socials() {
                         <img
                             src="/logos/instagram.svg"
                             className={styles.logoimages}
+                            alt="Instagram logo in svg format"
                         ></img>
                     </a>
                 </li>

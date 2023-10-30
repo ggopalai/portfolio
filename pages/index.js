@@ -18,7 +18,7 @@ export default function HomePage() {
                     {/* image */}
                     <figure id={styles.dp}>
                         <img
-                            src="/dp.jpg"
+                            src="/dp.webp"
                             alt="Picture of me, last day of Cisco"
                         />
                     </figure>
@@ -34,8 +34,8 @@ export default function HomePage() {
                             Networks.
                         </p>
                         <p>
-                            I recently completed an internship with LitePoint
-                            Corp. as a Software Cloud Intern.
+                            I recently completed a summer internship with
+                            LitePoint Corp. as a Software Engineer Cloud Intern.
                         </p>
                         <p>
                             Prior to joining UC San Diego, I gained valuable
@@ -75,6 +75,7 @@ export default function HomePage() {
                             'Tech Stack - Microsoft Azure, Node.js, Express.js, React, HTML, CSS, JavaScript, Docker, Kubernetes, CosmosDB.',
                         ]}
                         image="/logos/litepoint.svg"
+                        alt="Logo of LitePoint Corp. in svg format"
                         start="June 2023"
                         end="Sept 2023"
                     />
@@ -91,6 +92,7 @@ export default function HomePage() {
                         image="/logos/cisco.svg"
                         start="July 2019"
                         end="July 2022"
+                        alt="Logo of Cisco in svg format"
                     />
                 </section>
 
@@ -108,6 +110,7 @@ export default function HomePage() {
                             'Tech Stack - Python, Bash Scripting, Docker, Kubernetes, PostgreSQL, AWS, National Research Platform (NRP)',
                         ]}
                         image="/logos/ucsd.svg"
+                        alt="Logo of UC San Diego in svg format"
                         start="April 2023"
                         end="Present"
                     />
@@ -123,6 +126,7 @@ export default function HomePage() {
                             'CSE 210 Principles of Software Engineering is a more focused and motivated version of CSE 110.',
                         ]}
                         image="/logos/ucsd.svg"
+                        alt="Logo of UC San Diego in svg format"
                         start="Sept 2023"
                         end="Dec 2023"
                     />
@@ -134,6 +138,7 @@ export default function HomePage() {
                             'This role has allowed me to gain valuable experience in Engineering Management while teaching and mentoring students, as well as develop my communication and leadership skills.',
                         ]}
                         image="/logos/ucsd.svg"
+                        alt="Logo of UC San Diego in svg format"
                         start="Fall 2022"
                         end="Spring 2023"
                     />
@@ -146,6 +151,7 @@ export default function HomePage() {
                             'As a TA, I was responsible for conducting weekly office hours, grading assignments, and assisting students with any questions or concerns they may have.',
                         ]}
                         image="/logos/ucsd.svg"
+                        alt="Logo of UC San Diego in svg format"
                         start="January 2023"
                         end="March 2023"
                     />

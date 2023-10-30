@@ -1,6 +1,6 @@
 import styles from '../styles/Card.module.css';
 
-export default function Card({ name, position, exp, image, start, end }) {
+export default function Card({ name, position, exp, image, start, end, alt }) {
     return (
         <section className={styles.card}>
             <div className={styles.header}>
@@ -10,7 +10,7 @@ export default function Card({ name, position, exp, image, start, end }) {
                     >{`${name} - ${position}`}</div>
                     <div className={styles.time}>{`${start} - ${end}`}</div>
                 </div>
-                <img className={styles.companylogo} src={image}></img>
+                <img className={styles.companylogo} src={image} alt={alt}></img>
             </div>
             <div className={styles.content}>
                 <ul className={styles.ul}>

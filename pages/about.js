@@ -44,12 +44,12 @@ export default function About() {
                     </p>
                     <div className={styles.kkContainer}>
                         <img
-                            src="/himalayas/fullview.jpg"
+                            src="/himalayas/fullview.avif"
                             alt="Kedarkantha"
                             className={styles.kk}
                         />
                         <img
-                            src="/himalayas/sunset.jpg"
+                            src="/himalayas/sunset.avif"
                             alt="Kedarkantha"
                             className={styles.kk}
                         />
@@ -87,8 +87,14 @@ export default function About() {
                         Here are some of his pictures.
                     </p>
                     <div className={styles.tobyContainer}>
-                        <img src="/toby/toby1.jpg" alt="Toby" />
-                        <img src="/toby/toby2.jpg" alt="Toby" />
+                        <img
+                            src="/toby/toby1.webp"
+                            alt="Toby when he was few months old"
+                        />
+                        <img
+                            src="/toby/toby2.webp"
+                            alt="Toby sleeping on the couch!"
+                        />
                     </div>
                 </section>
             </main>
