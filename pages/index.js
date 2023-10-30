@@ -88,7 +88,7 @@ export default function HomePage() {
                             'Collaborated with the security team to ensure compliance with industry best practices.',
                             'Tech Stack - Golang, Python, Java, Docker, Kubernetes, AWS, OAuth2.0, OPA, Okta',
                         ]}
-                        image="/logos/cisco.png"
+                        image="/logos/cisco.svg"
                         start="July 2019"
                         end="July 2022"
                     />
@@ -107,7 +107,7 @@ export default function HomePage() {
                             'Our goal is to provide a sustainable solution for the autograding process, enabling educational institutions and organizations to efficiently utilize cloud resources while reducing their carbon footprint.',
                             'Tech Stack - Python, Bash Scripting, Docker, Kubernetes, PostgreSQL, AWS, National Research Platform (NRP)',
                         ]}
-                        image="/logos/ucsd.png"
+                        image="/logos/ucsd.svg"
                         start="April 2023"
                         end="Present"
                     />
@@ -122,7 +122,7 @@ export default function HomePage() {
                         exp={[
                             'CSE 210 Principles of Software Engineering is a more focused and motivated version of CSE 110.',
                         ]}
-                        image="/logos/ucsd.png"
+                        image="/logos/ucsd.svg"
                         start="Sept 2023"
                         end="Dec 2023"
                     />
@@ -133,7 +133,7 @@ export default function HomePage() {
                             'CSE 110 Software Engineering is a course that focuses on the software development lifecycle and the various tools and techniques used in the process. As a TA, I was responsible for mentoring a total of 11 teams (110 students in total) in their course projects.',
                             'This role has allowed me to gain valuable experience in Engineering Management while teaching and mentoring students, as well as develop my communication and leadership skills.',
                         ]}
-                        image="/logos/ucsd.png"
+                        image="/logos/ucsd.svg"
                         start="Fall 2022"
                         end="Spring 2023"
                     />
@@ -145,7 +145,7 @@ export default function HomePage() {
                             'This is a front-end technical course that aims to teach the students HTML, CSS and JavaScript.',
                             'As a TA, I was responsible for conducting weekly office hours, grading assignments, and assisting students with any questions or concerns they may have.',
                         ]}
-                        image="/logos/ucsd.png"
+                        image="/logos/ucsd.svg"
                         start="January 2023"
                         end="March 2023"
                     />

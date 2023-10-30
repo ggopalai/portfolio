@@ -10,7 +10,7 @@ export default function Socials() {
                         target="_blank"
                     >
                         <img
-                            src="/logos/linkedin.png"
+                            src="/logos/linkedin.svg"
                             className={styles.logoimages}
                         ></img>
                     </a>
@@ -29,7 +29,7 @@ export default function Socials() {
                         target="_blank"
                     >
                         <img
-                            src="/logos/instagram.png"
+                            src="/logos/instagram.svg"
                             className={styles.logoimages}
                         ></img>
                     </a>
