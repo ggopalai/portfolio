@@ -9,6 +9,10 @@ export default function About() {
         <div id={mainStyles.container}>
             <Head>
                 <title>About</title>
+                <meta
+                    name="description"
+                    content="An about me page explaining more details about who I truly am."
+                ></meta>
             </Head>
             <Header />
             <main id={mainStyles.main}>

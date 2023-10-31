@@ -10,6 +10,10 @@ export default function HomePage() {
         <div className={styles.container}>
             <Head>
                 <title>Gagan Gopalaiah</title>
+                <meta
+                    name="description"
+                    content="Gagan Gopalaiah's personal website"
+                ></meta>
             </Head>
             <Header />
             <main id={styles.content}>

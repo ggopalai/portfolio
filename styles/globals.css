@@ -1,21 +1,13 @@
-/* @font-face {
-  font-family: 'Roboto-Slab-Medium';
-  src: url('/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf');
-}
-
-@font-face {
-  font-family: 'Roboto-Slab-Regular';
-  src: url('/fonts/Roboto_Slab/static/RobotoSlab-Light.ttf');
-} */
-
 @font-face {
     font-family: 'Montserrat-Regular';
     src: url('/fonts/Montserrat/static/Montserrat-Medium.ttf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Montserrat-Bold';
     src: url('/fonts/Montserrat/static/Montserrat-SemiBold.ttf');
+    font-display: swap;
 }
 
 html,
