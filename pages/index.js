@@ -14,6 +14,10 @@ export default function HomePage() {
                     name="description"
                     content="Gagan Gopalaiah's personal website"
                 ></meta>
+                <meta
+                    name="google-site-verification"
+                    content="9EdkBCN70LSCX6KZEHDCIxnRZb39OUWt4s3p-i2Y-ck"
+                />
             </Head>
             <Header />
             <main id={styles.content}>
