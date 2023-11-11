@@ -44,7 +44,7 @@ export default function About() {
                         a dream I hope to conquer someday, driven by the desire
                         to challenge my limits and experience the pinnacle of
                         adventure. Here are a couple of images from the summit
-                        of the Kedarkantha Peak.
+                        of the Kedarkantha peak.
                     </p>
                     <div className={styles.kkContainer}>
                         <img

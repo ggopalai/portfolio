@@ -34,12 +34,13 @@ export default function HomePage() {
                     {/* intro text */}
                     <intro-text id={styles.introtext}>
                         <p>
-                            Welcome to my website! I'm a graduate student at UC
-                            San Diego, currently pursuing a Master's degree in
-                            Computer Science with a specialization in Computer
-                            Systems. My primary areas of interest are Cloud
-                            Computing, Distributed Systems, and Computer
-                            Networks.
+                            Welcome to my website! I'm a current graduate
+                            student at UC San Diego, pursuing a Master's degree
+                            in Computer Science. My primary areas of interest
+                            are Cloud Computing, Distributed Systems, and
+                            Computer Networks. I am on track to graduate in
+                            March 2024, and am actively looking for full-time
+                            roles with start dates in April 2024 and beyond.
                         </p>
                         <p>
                             I recently completed a summer internship with
@@ -60,9 +61,8 @@ export default function HomePage() {
                         </p>
                         <p>
                             Feel free to explore and get in touch with me for
-                            any further inquiries or job opportunities. (I am
-                            actively looking for full-time roles with start
-                            dates after March 2024). Thank you for visiting!
+                            any further inquiries or job opportunities. Thank
+                            you for visiting!
                         </p>
                         <div id={styles.socialsContainer}>
                             <Socials />
@@ -131,7 +131,8 @@ export default function HomePage() {
                         name="CSE 210 Principles of Software Engineering"
                         position="Graduate Teaching Assistant"
                         exp={[
-                            'CSE 210 Principles of Software Engineering is a more focused and motivated version of CSE 110.',
+                            'Graduate level Software Engineering class, where I am responsible for facilicating in-class discussions, \
+                            grading and mentoring teams on their course project.',
                         ]}
                         image="/logos/ucsd.svg"
                         alt="Logo of UC San Diego in svg format"
