@@ -34,13 +34,13 @@ export default function HomePage() {
                     {/* intro text */}
                     <intro-text id={styles.introtext}>
                         <p>
-                            Welcome to my website! I'm a current graduate
-                            student at UC San Diego, pursuing a Master's degree
-                            in Computer Science. My primary areas of interest
-                            are Cloud Computing, Distributed Systems, and
-                            Computer Networks. I am on track to graduate in
-                            March 2024, and am actively looking for full-time
-                            roles with start dates in April 2024 and beyond.
+                            I'm a second-year graduate student at UC San Diego,
+                            pursuing a Master's degree in Computer Science. My
+                            primary areas of interest are Cloud Computing,
+                            Distributed Systems, and Computer Networks. I am on
+                            track to graduate in March 2024, and am actively
+                            looking for full-time Software Engineering roles
+                            with start dates in April 2024 and beyond.
                         </p>
                         <p>
                             I recently completed a summer internship with
@@ -61,8 +61,7 @@ export default function HomePage() {
                         </p>
                         <p>
                             Feel free to explore and get in touch with me for
-                            any further inquiries or job opportunities. Thank
-                            you for visiting!
+                            any further inquiries or job opportunities.
                         </p>
                         <div id={styles.socialsContainer}>
                             <Socials />
@@ -78,7 +77,7 @@ export default function HomePage() {
                         name="LitePoint"
                         position="Software Engineer Cloud Intern"
                         exp={[
-                            "Spearheaded the development of a web-application to remotely demo LitePoint's testers to potential customers.",
+                            "Spearheaded the development of a web application to remotely demo LitePoint's testers to potential customers.",
                             "The project directly contributed to the company's revenue by enabling the sales team to conduct demos with customers across the globe, thereby reducing the need for travel and in-person meetings.",
                             'Tech Stack - Microsoft Azure, Node.js, Express.js, React, HTML, CSS, JavaScript, Docker, Kubernetes, CosmosDB.',
                         ]}
@@ -92,8 +91,8 @@ export default function HomePage() {
                         name="Cisco Systems"
                         position="Software Engineer (Full Time)"
                         exp={[
-                            'My most significant contribution was developing an Authentication/Authorization framework for the Cisco Customer Experience Cloud.',
-                            'Developed microservices in Python and Java for multiple customer-facing teams (SW Version Recommendation and Business Critical Services teams)',
+                            'My most significant contribution was developing an Authorization/Authentication framework for the Cisco Customer Experience Cloud.',
+                            'Prior to that, developed microservices in Python and Java for multiple customer-facing teams (SW Version Recommendation and Business Critical Services teams)',
                             'Collaborated with the security team to ensure compliance with industry best practices.',
                             'Tech Stack - Golang, Python, Java, Docker, Kubernetes, AWS, OAuth2.0, OPA, Okta',
                         ]}
@@ -112,7 +111,7 @@ export default function HomePage() {
                         name="Systems and Networking Group"
                         position="Graduate Research Assistant"
                         exp={[
-                            "I'm part of the Carbonless Cloud Computing lab, contributing to the Greengrader project.",
+                            "I'm part of the Carbonless Cloud Computing lab, contributing to the GreenGrader project.",
                             'Our platform optimizes autograder container scheduling across cloud platforms with a focus on reducing carbon emissions.',
                             'Our goal is to provide a sustainable solution for the autograding process, enabling educational institutions and organizations to efficiently utilize cloud resources while reducing their carbon footprint.',
                             'Tech Stack - Python, Bash Scripting, Docker, Kubernetes, PostgreSQL, AWS, National Research Platform (NRP)',
