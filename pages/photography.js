@@ -29,6 +29,9 @@ export default function Photography() {
         '/images/photo19.jpg',
         '/images/photo20.jpg',
         '/images/photo21.jpg',
+        '/images/photo25.avif',
+        '/images/photo26.avif',
+        '/images/photo27.avif',
     ];
 
     return (
