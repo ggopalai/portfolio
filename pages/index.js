@@ -35,33 +35,42 @@ export default function HomePage() {
                     <intro-text id={styles.introtext}>
                         <p>
                             I'm a second-year graduate student at UC San Diego,
-                            pursuing a Master's degree in Computer Science. My
-                            primary areas of interest are Cloud Computing,
-                            Distributed Systems, and Computer Networks. I am on
-                            track to graduate in March 2024, and am actively
-                            looking for full-time Software Engineering roles
-                            with start dates in April 2024 and beyond.
+                            pursuing a Master's degree in Computer Science. I'm
+                            primarily interested in the intersection of cloud
+                            computing and distributed systems. I'm on track to
+                            graduate in March 2024, and am actively looking for
+                            full-time backend Software Engineering roles with
+                            start dates in April 2024 and beyond.
                         </p>
                         <p>
-                            I recently completed a summer internship with
-                            LitePoint Corp. as a Software Engineer Cloud Intern.
+                            Prior to joining UC San Diego, I spent 3 years
+                            building enterprise SaaS products at Cisco Systems.
+                            More specifically, I was part of the core team that
+                            developed the authorization framework for Cisco's{' '}
+                            <a
+                                href="https://www.cisco.com/site/us/en/services/cx-cloud/index.html"
+                                target="_blank"
+                            >
+                                {' '}
+                                <u> CX Cloud.</u>{' '}
+                            </a>
                         </p>
                         <p>
-                            Prior to joining UC San Diego, I gained valuable
-                            experience as a Software Engineer at Cisco, where I
-                            worked for 3 years. This role allowed me to
-                            contribute to various projects and expand my skills
-                            in software development, problem-solving, and
-                            collaboration within a tech-driven environment.
+                            I am currently involved in researching the domain of
+                            green cloud computing with the Systems and
+                            Networking group advised by{' '}
+                            <a href="https://cseweb.ucsd.edu/~gmporter/">
+                                {' '}
+                                <u>Dr. George Porter.</u>{' '}
+                            </a>
                         </p>
                         <p>
-                            I hold a bachelor's degree from R.V. College of
-                            Engineering in Bangalore, which provided me with a
-                            solid foundation in computer science.
+                            I hold a bachelor's degree in Computer Science from
+                            R.V. College of Engineering, Bangalore.
                         </p>
                         <p>
                             Feel free to explore and get in touch with me for
-                            any further inquiries or job opportunities.
+                            further inquiries or job opportunities.
                         </p>
                         <div id={styles.socialsContainer}>
                             <Socials />
@@ -78,7 +87,8 @@ export default function HomePage() {
                         position="Software Engineer Cloud Intern"
                         exp={[
                             "Spearheaded the development of a web application to remotely demo LitePoint's testers to potential customers.",
-                            "The project directly contributed to the company's revenue by enabling the sales team to conduct demos with customers across the globe, thereby reducing the need for travel and in-person meetings.",
+                            "The project directly contributed to the company's revenue by enabling the sales team to conduct demos with customers across the globe, \
+                            thereby reducing the need for travel and in-person meetings.",
                             'Tech Stack - Microsoft Azure, Node.js, Express.js, React, HTML, CSS, JavaScript, Docker, Kubernetes, CosmosDB.',
                         ]}
                         image="/logos/litepoint.svg"
@@ -91,10 +101,15 @@ export default function HomePage() {
                         name="Cisco Systems"
                         position="Software Engineer (Full Time)"
                         exp={[
-                            'My most significant contribution was developing an Authorization/Authentication framework for the Cisco Customer Experience Cloud.',
-                            'Prior to that, developed microservices in Python and Java for multiple customer-facing teams (SW Version Recommendation and Business Critical Services teams)',
-                            'Collaborated with the security team to ensure compliance with industry best practices.',
-                            'Tech Stack - Golang, Python, Java, Docker, Kubernetes, AWS, OAuth2.0, OPA, Okta',
+                            'My most significant contribution was developing an Authorization/Authentication framework \
+                            for the Cisco Customer Experience Cloud.',
+                            'We utilized the OAuth protocol to establish a secure access control framework for CX Cloud APIs, \
+                            implementing Role-Based Access Control (RBAC) mechanisms. This not only ensured robust API security \
+                            but also involved designing and managing Identity and Access Management (IAM) policies.',
+                            'Prior to that, I developed microservices for multiple customer-facing teams \
+                            (SW Version Recommendations and Business Critical Services teams) in Python and Java.',
+                            'In each of these teams, I collaborated with the security team to ensure compliance with industry best practices.',
+                            'Technical Stack - Golang, Python, Java, Docker, Kubernetes, AWS, OAuth2.0, OPA, Okta',
                         ]}
                         image="/logos/cisco.svg"
                         start="July 2019"
@@ -112,9 +127,11 @@ export default function HomePage() {
                         position="Graduate Research Assistant"
                         exp={[
                             "I'm part of the Carbonless Cloud Computing lab, contributing to the GreenGrader project.",
-                            'Our platform optimizes autograder container scheduling across cloud platforms with a focus on reducing carbon emissions.',
-                            'Our goal is to provide a sustainable solution for the autograding process, enabling educational institutions and organizations to efficiently utilize cloud resources while reducing their carbon footprint.',
-                            'Tech Stack - Python, Bash Scripting, Docker, Kubernetes, PostgreSQL, AWS, National Research Platform (NRP)',
+                            'Our platform aims to optimize autograder container scheduling across cloud platforms with a focus \
+                            on reducing carbon emissions.',
+                            'Our goal is to provide a sustainable solution for the autograding process, enabling educational \
+                            institutions to efficiently utilize cloud resources while reducing their carbon footprint.',
+                            'Technical Stack - Python, Bash Scripting, Docker, Kubernetes, PostgreSQL, AWS, National Research Platform (NRP)',
                         ]}
                         image="/logos/ucsd.svg"
                         alt="Logo of UC San Diego in svg format"
@@ -130,7 +147,7 @@ export default function HomePage() {
                         name="CSE 210 Principles of Software Engineering"
                         position="Graduate Teaching Assistant"
                         exp={[
-                            'Graduate level Software Engineering class, where I am responsible for facilicating in-class discussions, \
+                            'Graduate-level Software Engineering course, where I am responsible for facilicating in-class discussions, \
                             grading and mentoring teams on their course project.',
                         ]}
                         image="/logos/ucsd.svg"
@@ -156,7 +173,8 @@ export default function HomePage() {
                         position="Graduate Teaching Assistant"
                         exp={[
                             'This is a front-end technical course that aims to teach the students HTML, CSS and JavaScript.',
-                            'As a TA, I was responsible for conducting weekly office hours, grading assignments, and assisting students with any questions or concerns they may have.',
+                            'As a TA, I was responsible for conducting weekly office hours, grading assignments, \
+                            and assisting students with any questions or concerns they may have.',
                         ]}
                         image="/logos/ucsd.svg"
                         alt="Logo of UC San Diego in svg format"
