@@ -27,13 +27,6 @@ a {
     box-sizing: border-box;
 }
 
-/* h1,
-h2,
-p,
-ul {
-  margin: 0;
-} */
-
 h2 {
     text-decoration: underline;
     font-family: 'Montserrat-Bold', sans-serif;

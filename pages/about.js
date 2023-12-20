@@ -25,25 +25,25 @@ export default function About() {
                         pleasure in life's little treasures. I try to actively
                         practise Stoicism, exploring life's deeper questions in
                         a fast-paced world. While I can't sing or dance to save
-                        my life, I make up for it with my zeal for cooking.
-                        Living solo in the USA has transformed me into a
-                        culinary enthusiast. I'm all about savoring good food,
-                        but I also balance it with my love for lifting weights –
-                        currently deadlifting up to 165 kgs. And let's not
-                        forget fondness for dogs - these furry companions are,
-                        without a doubt, a gift from the heavens. Welcome to my
-                        world.
+                        my life, I make up for it with my enthusiasm for
+                        cooking. Living solo in the USA has brought out my inner
+                        Gordon Ramsay! I'm all about savoring good food, but I
+                        also balance it with my love for lifting weights in the
+                        gym. And let's not forget fondness for dogs - these
+                        furry companions are, without a doubt, a gift from the
+                        heavens.
                     </p>
-                    <h4 className={styles.section}>Love for outdoors</h4>
+                    {/* <h4 className={styles.section}>
+                        Love for outdoors &#9968;{' '}
+                    </h4> */}
                     <p>
                         Hiking outdoors is one of my favorite pastimes. I've had
                         the opportunity to embark on two Himalayan expeditions,
                         immersing myself in the breathtaking beauty of the
                         mountains. Mount K2 is a dream I hope to conquer
-                        someday, driven by the desire to experience the
-                        adrenaline rush that comes with the dangers of living
-                        life on the edge. Here are a couple of images from the
-                        summit of the Kedarkantha peak from 2018.
+                        someday, driven by the desire to live life on the edge.
+                        Here are a couple of images from the summit of the
+                        Kedarkantha peak from 2018.
                     </p>
                     <div className={styles.kkContainer}>
                         <img
@@ -57,7 +57,7 @@ export default function About() {
                             className={styles.kk}
                         />
                     </div>
-                    <h4 className={styles.section}>Football</h4>
+                    {/* <h4 className={styles.section}>Football &#9917; </h4> */}
                     <p>
                         Football holds a special place in my heart, and I have
                         been a devoted supporter of Liverpool FC since 2008. The
@@ -67,25 +67,27 @@ export default function About() {
                         cheering on the team with unwavering enthusiasm, living
                         by the motto "Red or dead."
                     </p>
-                    <h4 className={styles.section}>Photography</h4>
+                    {/* <h4 className={styles.section}>Photography &#128248; </h4> */}
                     <p>
-                        I'm also a hobbyist photographer. Since 2015, I have
-                        been capturing moments and stories through my Canon
-                        600D. Whether it's the vast landscapes, the vibrant
-                        streets, or the essence of individuals in portraits, I
-                        strive to encapsulate the beauty and emotions within
-                        each frame. You can find some of my work in my{' '}
+                        I also love capturing and playing around with images.
+                        Since 2015, I have been shooting moments and stories
+                        through my Canon 600D. Whether it's the vast landscapes,
+                        the vibrant streets, or the essence of individuals in
+                        portraits, I strive to encapsulate the beauty and
+                        emotions within each frame. You can find some of my work
+                        in my{' '}
                         <a href="/photography">
                             <u>photography</u>
                         </a>{' '}
                         page.
                     </p>
-                    <h4 className={styles.section}> Toby &#9829; </h4>
+                    {/* <h4 className={styles.section}> Toby &#9829; </h4> */}
                     <p>
-                        I left my pet dog Toby back home in Bangalore, whom I
-                        absolutely love. He's a 2.5-year-old Indie. His playful
-                        spirit and unconditional love have brought immeasurable
-                        happiness to my life, reminding me of the importance of
+                        Last, but certainly not the least, I left my pet dog
+                        Toby back home in Bangalore, whom I absolutely adore.
+                        He's a 2.5-year-old Indie. His playful spirit and
+                        unconditional love have brought immeasurable happiness
+                        to my life, reminding me of the importance of
                         companionship and cherished connections. Here are some
                         of his pictures.
                     </p>

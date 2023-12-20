@@ -59,7 +59,10 @@ export default function HomePage() {
                             I am currently involved in researching the domain of
                             green cloud computing with the Systems and
                             Networking group advised by{' '}
-                            <a href="https://cseweb.ucsd.edu/~gmporter/">
+                            <a
+                                href="https://cseweb.ucsd.edu/~gmporter/"
+                                target="_blank"
+                            >
                                 {' '}
                                 <u>Dr. George Porter.</u>{' '}
                             </a>
@@ -104,7 +107,7 @@ export default function HomePage() {
                             'My most significant contribution was developing an Authorization/Authentication framework \
                             for the Cisco Customer Experience Cloud.',
                             'We utilized the OAuth protocol to establish a secure access control framework for CX Cloud APIs, \
-                            implementing Role-Based Access Control (RBAC) mechanisms. This not only ensured robust API security \
+                            implementing Role-Based-Access-Control (RBAC) mechanisms. This not only ensured robust API security \
                             but also involved designing and managing Identity and Access Management (IAM) policies.',
                             'Prior to that, I developed microservices for multiple customer-facing teams \
                             (SW Version Recommendations and Business Critical Services teams) in Python and Java.',
