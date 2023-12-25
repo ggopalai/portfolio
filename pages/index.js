@@ -4,6 +4,7 @@ import Footer from '../components/footer';
 import Header from '../components/header';
 import Card from '../components/card';
 import Socials from '../components/socials';
+import TeachingCard from '../components/teaching-card';
 
 export default function HomePage() {
     return (
@@ -36,7 +37,7 @@ export default function HomePage() {
                         <p>
                             I'm a second-year graduate student at UC San Diego,
                             pursuing a Master's degree in Computer Science. I'm
-                            primarily interested in the intersection of cloud
+                            broadly interested in the intersection of cloud
                             computing and distributed systems. I'm on track to
                             graduate in March 2024, and am actively looking for
                             full-time backend Software Engineering roles with
@@ -56,9 +57,9 @@ export default function HomePage() {
                             </a>
                         </p>
                         <p>
-                            I am currently involved in researching the domain of
-                            green cloud computing with the Systems and
-                            Networking group advised by{' '}
+                            I am currently researching the domain of green cloud
+                            computing with the Systems and Networking group
+                            advised by{' '}
                             <a
                                 href="https://cseweb.ucsd.edu/~gmporter/"
                                 target="_blank"
@@ -89,7 +90,7 @@ export default function HomePage() {
                         name="LitePoint"
                         position="Software Engineer Cloud Intern"
                         exp={[
-                            "Spearheaded the development of a web application to remotely demo LitePoint's testers to potential customers.",
+                            "Designed and developed a web application to remotely demo LitePoint's testers to potential customers.",
                             "The project directly contributed to the company's revenue by enabling the sales team to conduct demos with customers across the globe, \
                             thereby reducing the need for travel and in-person meetings.",
                             'Tech Stack - Microsoft Azure, Node.js, Express.js, React, HTML, CSS, JavaScript, Docker, Kubernetes, CosmosDB.',
@@ -104,7 +105,7 @@ export default function HomePage() {
                         name="Cisco Systems"
                         position="Software Engineer (Full Time)"
                         exp={[
-                            'My most significant contribution was developing an Authorization/Authentication framework \
+                            'My most significant contribution was developing an Authorization and Authentication framework \
                             for the Cisco Customer Experience Cloud.',
                             'We utilized the OAuth protocol to establish a secure access control framework for CX Cloud APIs, \
                             implementing Role-Based-Access-Control (RBAC) mechanisms. This not only ensured robust API security \
@@ -146,43 +147,34 @@ export default function HomePage() {
                 {/* section for teaching experience */}
                 <section id={styles.teaching}>
                     <h2>Teaching Experience</h2>
-                    <Card
-                        name="CSE 210 Principles of Software Engineering"
-                        position="Graduate Teaching Assistant"
+                    <TeachingCard
+                        course="CSE 210 Principles of Software Engineering"
+                        quarters="Fall 2023, Winter 2024"
                         exp={[
-                            'Graduate-level Software Engineering course, where I am responsible for facilicating in-class discussions, \
+                            'Graduate-level Software Engineering course, where I am responsible for \
+                            facilicating in-class discussions, \
                             grading and mentoring teams on their course project.',
                         ]}
-                        image="/logos/ucsd.svg"
-                        alt="Logo of UC San Diego in svg format"
-                        start="Sept 2023"
-                        end="Dec 2023"
                     />
-                    <Card
-                        name="CSE 110 Software Engineering"
-                        position="Graduate Teaching Assistant"
+                    <TeachingCard
+                        course="CSE 110 Software Engineering"
+                        quarters="Fall 2022, Spring 2023"
                         exp={[
-                            'CSE 110 Software Engineering is a course that focuses on the software development lifecycle and the various tools and techniques used in the process. As a TA, I was responsible for mentoring a total of 11 teams (110 students in total) in their course projects.',
-                            'This role has allowed me to gain valuable experience in Engineering Management while teaching and mentoring students, as well as develop my communication and leadership skills.',
+                            'Undergraduate SE course that focuses on the software development lifecycle and the various tools \
+                            and techniques used in the process. As a TA, I was responsible for mentoring a total of 11 teams \
+                            (110 students in total) in their course projects.',
+                            'This role has allowed me to gain valuable experience in Engineering Management while teaching \
+                            and mentoring students, as well as develop my communication and leadership skills.',
                         ]}
-                        image="/logos/ucsd.svg"
-                        alt="Logo of UC San Diego in svg format"
-                        start="Fall 2022"
-                        end="Spring 2023"
                     />
-
-                    <Card
-                        name="CSE 134 Web Client Languages"
-                        position="Graduate Teaching Assistant"
+                    <TeachingCard
+                        course="CSE 134 Web Client Languages"
+                        quarters="Winter 2023"
                         exp={[
                             'This is a front-end technical course that aims to teach the students HTML, CSS and JavaScript.',
                             'As a TA, I was responsible for conducting weekly office hours, grading assignments, \
                             and assisting students with any questions or concerns they may have.',
                         ]}
-                        image="/logos/ucsd.svg"
-                        alt="Logo of UC San Diego in svg format"
-                        start="January 2023"
-                        end="March 2023"
                     />
                 </section>
 

@@ -1,0 +1,8 @@
+.container {
+    padding: 2%;
+}
+
+.ul li {
+    list-style-type: circle;
+    margin: 0.3rem 0;
+}
