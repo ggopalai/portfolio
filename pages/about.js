@@ -11,7 +11,7 @@ export default function About() {
                 <title>About</title>
                 <meta
                     name="description"
-                    content="An about me page explaining more details about who I truly am."
+                    content="An about me page explaining more details about who I am."
                 ></meta>
             </Head>
             <Header />
@@ -60,8 +60,8 @@ export default function About() {
                     {/* <h4 className={styles.section}>Football &#9917; </h4> */}
                     <p>
                         Football holds a special place in my heart, and I have
-                        been a devoted supporter of Liverpool FC since 2008. The
-                        thrill of the game, the camaraderie among fans, and the
+                        been an ardent supporter of Liverpool FC since 2008. The
+                        thrill of the game, the banter among fans, and the
                         rollercoaster of emotions that come with each match make
                         it an exhilarating experience. You'll often find me
                         cheering on the team with unwavering enthusiasm, living
@@ -69,10 +69,10 @@ export default function About() {
                     </p>
                     {/* <h4 className={styles.section}>Photography &#128248; </h4> */}
                     <p>
-                        I also love capturing and playing around with images.
-                        Since 2015, I have been shooting moments and stories
-                        through my Canon 600D. Whether it's the vast landscapes,
-                        the vibrant streets, or the essence of individuals in
+                        I enjoy capturing and playing around with images. Since
+                        2015, I have been shooting moments and stories through
+                        my Canon 600D. Whether it's the vast landscapes, the
+                        vibrant streets, or the essence of individuals in
                         portraits, I strive to encapsulate the beauty and
                         emotions within each frame. You can find some of my work
                         in my{' '}
