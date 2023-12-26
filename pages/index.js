@@ -35,19 +35,29 @@ export default function HomePage() {
                     {/* intro text */}
                     <intro-text id={styles.introtext}>
                         <p>
-                            I'm a second-year graduate student at UC San Diego,
+                            Hey, I'm a second-year graduate student at{' '}
+                            <span className={styles.emp}>UC San Diego</span>,
                             pursuing a Master's degree in Computer Science. I'm
-                            broadly interested in the intersection of cloud
-                            computing and distributed systems. I'm on track to
-                            graduate in March 2024, and am actively looking for
-                            full-time backend Software Engineering roles with
-                            start dates in April 2024 and beyond.
+                            broadly interested in the intersection of{' '}
+                            <span className={styles.emp}>cloud computing</span>{' '}
+                            and{' '}
+                            <span className={styles.emp}>
+                                distributed systems
+                            </span>
+                            . I'm on track to graduate in March 2024, and am
+                            actively looking for full-time backend Software
+                            Engineering roles with start dates in April 2024 and
+                            beyond.
                         </p>
                         <p>
                             Prior to joining UC San Diego, I spent 3 years
-                            building enterprise SaaS products at Cisco Systems.
+                            building enterprise{' '}
+                            <span className={styles.emp}>SaaS</span> products at{' '}
+                            <span className={styles.emp}>Cisco Systems</span>.
                             More specifically, I was part of the core team that
-                            developed the authorization framework for Cisco's{' '}
+                            developed the{' '}
+                            <span className={styles.emp}>authorization</span>{' '}
+                            framework for Cisco's{' '}
                             <a
                                 href="https://www.cisco.com/site/us/en/services/cx-cloud/index.html"
                                 target="_blank"
@@ -57,9 +67,12 @@ export default function HomePage() {
                             </a>
                         </p>
                         <p>
-                            I am currently researching the domain of green cloud
-                            computing with the Systems and Networking group
-                            advised by{' '}
+                            I am currently researching the domain of{' '}
+                            <span className={styles.emp}>
+                                {' '}
+                                green cloud computing{' '}
+                            </span>{' '}
+                            with the Systems and Networking group advised by{' '}
                             <a
                                 href="https://cseweb.ucsd.edu/~gmporter/"
                                 target="_blank"
@@ -69,8 +82,11 @@ export default function HomePage() {
                             </a>
                         </p>
                         <p>
-                            I hold a bachelor's degree in Computer Science from
-                            R.V. College of Engineering, Bangalore.
+                            I hold a bachelor's degree in Computer Science from{' '}
+                            <span className={styles.emp}>
+                                R.V. College of Engineering
+                            </span>
+                            , Bangalore.
                         </p>
                         <p>
                             Feel free to explore and get in touch with me for

@@ -10,6 +10,12 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('/fonts/Montserrat/static/Montserrat-SemiBold.ttf');
+    font-display: swap;
+}
+
 .container {
     min-height: 100vh;
     display: flex;
@@ -91,4 +97,8 @@
     #socialsContainer {
         width: 100%;
     }
+}
+
+.emp {
+    font-family: 'Montserrat-Bold';
 }
