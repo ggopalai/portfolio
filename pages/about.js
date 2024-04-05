@@ -85,7 +85,7 @@ export default function About() {
                     <p>
                         Last, but certainly not the least, I left my pet dog
                         Toby back home in Bangalore, whom I absolutely adore.
-                        He's a 2.5-year-old Indie. His playful spirit and
+                        He's a 3-year-old Indie. His playful spirit and
                         unconditional love have brought immeasurable happiness
                         to my life, reminding me of the importance of
                         companionship and cherished connections. Here are some

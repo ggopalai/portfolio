@@ -44,9 +44,9 @@ export default function HomePage() {
                             <span className={styles.emp}>
                                 distributed systems
                             </span>
-                            . I'm on track to graduate in March 2024, and am
+                            . I'm on track to graduate in June 2024, and am
                             actively looking for full-time backend Software
-                            Engineering roles with start dates in April 2024 and
+                            Engineering roles with start dates in June 2024 and
                             beyond.
                         </p>
                         <p>
@@ -109,7 +109,7 @@ export default function HomePage() {
                             "Designed and developed a web application to remotely demo LitePoint's testers to potential customers.",
                             "The project directly contributed to the company's revenue by enabling the sales team to conduct demos with customers across the globe, \
                             thereby reducing the need for travel and in-person meetings.",
-                            'Tech Stack - Microsoft Azure, Node.js, Express.js, React, HTML, CSS, JavaScript, Docker, Kubernetes, CosmosDB.',
+                            'Tech Stack - Azure, Node.js, Express.js, React, HTML, CSS, JavaScript, Docker, Kubernetes, CosmosDB.',
                         ]}
                         image="/logos/litepoint.svg"
                         alt="Logo of LitePoint Corp. in svg format"
