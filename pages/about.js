@@ -27,7 +27,7 @@ export default function About() {
                         a fast-paced world. While I can't sing or dance to save
                         my life, I make up for it with my enthusiasm for
                         cooking. Living solo in the USA has brought out my inner
-                        Gordon Ramsay! I'm all about savoring good food, but I
+                        Gordon Ramsay. I'm all about savoring good food, but I
                         also balance it with my love for lifting weights in the
                         gym. And let's not forget fondness for dogs - these
                         furry companions are, without a doubt, a gift from the
@@ -64,8 +64,7 @@ export default function About() {
                         thrill of the game, the banter among fans, and the
                         rollercoaster of emotions that come with each match make
                         it an exhilarating experience. You'll often find me
-                        cheering on the team with unwavering enthusiasm, living
-                        by the motto "Red or dead."
+                        cheering on the team with unwavering enthusiasm.
                     </p>
                     {/* <h4 className={styles.section}>Photography &#128248; </h4> */}
                     <p>
@@ -74,12 +73,11 @@ export default function About() {
                         my Canon 600D. Whether it's the vast landscapes, the
                         vibrant streets, or the essence of individuals in
                         portraits, I strive to encapsulate the beauty and
-                        emotions within each frame. You can find some of my work
-                        in my{' '}
+                        emotions within each frame. You can find some of my work{' '}
                         <a href="/photography">
-                            <u>photography</u>
+                            <u>here</u>
                         </a>{' '}
-                        page.
+                        .
                     </p>
                     {/* <h4 className={styles.section}> Toby &#9829; </h4> */}
                     <p>
