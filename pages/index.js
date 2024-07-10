@@ -35,44 +35,28 @@ export default function HomePage() {
                     {/* intro text */}
                     <intro-text id={styles.introtext}>
                         <p>
-                            Hey there, I'm a software engineer at{' '}
-                            <span className={styles.emp}>
-                                Amazon Web Services
-                            </span>
-                            , working on{' '}
-                            <span className={styles.emp}>DynamoDB</span>. I'm
-                            broadly interested in distributed systems at scale.
-                        </p>
-                        <p>
-                            I recently graduated from{' '}
-                            <span className={styles.emp}>UC San Diego</span>
-                            with a Master's degree in Computer Science.
+                            Hey there, I'm a software engineer at Amazon Web
+                            Services working on DynamoDB. I'm broadly interested
+                            in distributed systems at scale.
                         </p>
                         <p>
                             Prior to joining UC San Diego, I spent 3 years
-                            building enterprise{' '}
-                            <span className={styles.emp}>SaaS</span> products at{' '}
-                            <span className={styles.emp}>Cisco Systems</span>.
+                            building enterprise SaaS products at Cisco Systems.
                             More specifically, I was part of the core team that
-                            developed the{' '}
-                            <span className={styles.emp}>authorization</span>{' '}
-                            framework for Cisco's{' '}
+                            developed the authorization framework for Cisco's
                             <a
                                 href="https://www.cisco.com/site/us/en/services/cx-cloud/index.html"
                                 target="_blank"
                             >
-                                {' '}
-                                <u> CX Cloud.</u>{' '}
+                                <u> CX Cloud.</u>
                             </a>
                         </p>
-
                         <p>
-                            I hold a bachelor's degree in Computer Science from{' '}
-                            <span className={styles.emp}>
-                                R.V. College of Engineering
-                            </span>
-                            , Bangalore.
+                            I hold a Master's degree in Computer Science from UC
+                            San Diego. I also hold a bachelor's degree from R.V.
+                            College of Engineering, Bangalore.
                         </p>
+
                         <p>
                             Feel free to explore and get in touch with me for
                             further inquiries or job opportunities.
@@ -94,7 +78,7 @@ export default function HomePage() {
                             "Designed and developed a web application to remotely demo LitePoint's testers to potential customers.",
                             "The project directly contributed to the company's revenue by enabling the sales team to conduct demos with customers across the globe, \
                             thereby reducing the need for travel and in-person meetings.",
-                            'Tech Stack - Azure, Node.js, Express.js, React, HTML, CSS, JavaScript, Docker, Kubernetes, CosmosDB.',
+                            'Tech Stack - Azure, Express.js, React, HTML, CSS, JavaScript, Docker, Kubernetes, CosmosDB.',
                         ]}
                         image="/logos/litepoint.svg"
                         alt="Logo of LitePoint Corp. in svg format"
@@ -114,7 +98,7 @@ export default function HomePage() {
                             'Prior to that, I developed microservices for multiple customer-facing teams \
                             (SW Version Recommendations and Business Critical Services teams) in Python and Java.',
                             'In each of these teams, I collaborated with the security team to ensure compliance with industry best practices.',
-                            'Technical Stack - Golang, Python, Java, Docker, Kubernetes, AWS, OAuth2.0, OPA, Okta',
+                            'Tech Stack - Golang, Python, Java, Docker, Kubernetes, AWS, OAuth2.0, OPA, Okta',
                         ]}
                         image="/logos/cisco.svg"
                         start="July 2019"
@@ -131,17 +115,15 @@ export default function HomePage() {
                         name="Systems and Networking Group"
                         position="Graduate Research Assistant"
                         exp={[
-                            "I'm part of the Carbonless Cloud Computing lab, contributing to the GreenGrader project.",
+                            'Contributed to the GreenGrader project.',
                             'Our platform aims to optimize autograder container scheduling across cloud platforms with a focus \
                             on reducing carbon emissions.',
-                            'Our goal is to provide a sustainable solution for the autograding process, enabling educational \
-                            institutions to efficiently utilize cloud resources while reducing their carbon footprint.',
-                            'Technical Stack - Python, Bash Scripting, Docker, Kubernetes, PostgreSQL, AWS, National Research Platform (NRP)',
+                            'Tech Stack - Python, Bash Scripting, Docker, Kubernetes, PostgreSQL, AWS, National Research Platform (NRP)',
                         ]}
                         image="/logos/ucsd.svg"
                         alt="Logo of UC San Diego in svg format"
                         start="April 2023"
-                        end="Present"
+                        end="Dec 2023"
                     />
                 </section>
 

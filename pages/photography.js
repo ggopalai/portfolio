@@ -5,6 +5,9 @@ import Footer from '../components/footer';
 
 export default function Photography() {
     const imageUrls = [
+        '/images/photo39.avif',
+        '/images/photo38.avif',
+        '/images/photo37.avif',
         '/images/photo34.avif',
         '/images/photo35.avif',
         '/images/photo36.avif',
