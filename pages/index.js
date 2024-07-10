@@ -35,19 +35,18 @@ export default function HomePage() {
                     {/* intro text */}
                     <intro-text id={styles.introtext}>
                         <p>
-                            Hey, I'm a second-year graduate student at{' '}
-                            <span className={styles.emp}>UC San Diego</span>,
-                            pursuing a Master's degree in Computer Science. I'm
-                            broadly interested in the intersection of{' '}
-                            <span className={styles.emp}>cloud computing</span>{' '}
-                            and{' '}
+                            Hey there, I'm a software engineer at{' '}
                             <span className={styles.emp}>
-                                distributed systems
+                                Amazon Web Services
                             </span>
-                            . I'm on track to graduate in June 2024, and am
-                            actively looking for full-time backend Software
-                            Engineering roles with start dates in June 2024 and
-                            beyond.
+                            , working on{' '}
+                            <span className={styles.emp}>DynamoDB</span>. I'm
+                            broadly interested in distributed systems at scale.
+                        </p>
+                        <p>
+                            I recently graduated from{' '}
+                            <span className={styles.emp}>UC San Diego</span>
+                            with a Master's degree in Computer Science.
                         </p>
                         <p>
                             Prior to joining UC San Diego, I spent 3 years
@@ -66,21 +65,7 @@ export default function HomePage() {
                                 <u> CX Cloud.</u>{' '}
                             </a>
                         </p>
-                        <p>
-                            I am currently researching the domain of{' '}
-                            <span className={styles.emp}>
-                                {' '}
-                                green cloud computing{' '}
-                            </span>{' '}
-                            with the Systems and Networking group advised by{' '}
-                            <a
-                                href="https://cseweb.ucsd.edu/~gmporter/"
-                                target="_blank"
-                            >
-                                {' '}
-                                <u>Dr. George Porter.</u>{' '}
-                            </a>
-                        </p>
+
                         <p>
                             I hold a bachelor's degree in Computer Science from{' '}
                             <span className={styles.emp}>
