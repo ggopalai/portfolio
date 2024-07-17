@@ -63,30 +63,30 @@ export default function About() {
                         been an ardent supporter of Liverpool FC since 2008. The
                         thrill of the game, the banter among fans, and the
                         rollercoaster of emotions that come with each match make
-                        it an amazing experience.
+                        it an awesome experience.
                     </p>
                     {/* <h4 className={styles.section}>Photography &#128248; </h4> */}
                     <p>
-                        I enjoy capturing and playing around with images. Since
-                        2015, I have been shooting moments and stories through
-                        my Canon 600D. Whether it's the vast landscapes, the
-                        vibrant streets, or the essence of individuals in
+                        I also enjoy capturing and playing around with images.
+                        Since 2015, I have been shooting moments and stories
+                        through my Canon 600D. Whether it's the vast landscapes,
+                        the vibrant streets, or the essence of individuals in
                         portraits, I strive to encapsulate the beauty and
                         emotions within each frame. You can find some of my work{' '}
                         <a href="/photography">
                             <u>here</u>
-                        </a>{' '}
+                        </a>
                         .
                     </p>
                     {/* <h4 className={styles.section}> Toby &#9829; </h4> */}
                     <p>
                         Last, but certainly not the least, I left my pet dog
-                        Toby back home in Bangalore, whom I absolutely adore.
+                        Toby back home in Bengaluru, whom I absolutely adore.
                         He's a 3-year-old Indie. His playful spirit and
                         unconditional love have brought immeasurable happiness
                         to my life, reminding me of the importance of
                         companionship and cherished connections. Here are some
-                        of his pictures.
+                        of his pictures when he was a puppy.
                     </p>
                     <div className={styles.tobyContainer}>
                         <img
