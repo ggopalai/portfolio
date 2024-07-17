@@ -134,9 +134,9 @@ export default function HomePage() {
                         course="CSE 210 Principles of Software Engineering"
                         quarters="Fall 2023, Winter 2024"
                         exp={[
-                            'Graduate-level Software Engineering course, where I am responsible for \
+                            'Graduate-level Software Engineering course, where I was responsible for \
                             facilicating in-class discussions, \
-                            grading and mentoring teams on their course project.',
+                            grading and mentoring teams on their course projects.',
                         ]}
                     />
                     <TeachingCard
@@ -146,7 +146,7 @@ export default function HomePage() {
                             'Undergraduate SE course that focuses on the software development lifecycle and the various tools \
                             and techniques used in the process. As a TA, I was responsible for mentoring a total of 11 teams \
                             (110 students in total) in their course projects.',
-                            'This role has allowed me to gain valuable experience in Engineering Management while teaching \
+                            'This role allowed me to gain valuable experience in Engineering Management while teaching \
                             and mentoring students, as well as develop my communication and leadership skills.',
                         ]}
                     />

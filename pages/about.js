@@ -63,8 +63,7 @@ export default function About() {
                         been an ardent supporter of Liverpool FC since 2008. The
                         thrill of the game, the banter among fans, and the
                         rollercoaster of emotions that come with each match make
-                        it an exhilarating experience. You'll often find me
-                        cheering on the team with unwavering enthusiasm.
+                        it an amazing experience.
                     </p>
                     {/* <h4 className={styles.section}>Photography &#128248; </h4> */}
                     <p>

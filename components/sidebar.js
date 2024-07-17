@@ -15,11 +15,11 @@ export default function Sidebar({ sidebarVisible }) {
                 <li className={styles.listItem}>
                     <a href="/photography">Photography</a>
                 </li>
-                <li className={styles.listItem}>
+                {/* <li className={styles.listItem}>
                     <a href="/GaganGopalaiahResume.pdf" download>
                         Resume
                     </a>
-                </li>
+                </li> */}
                 <li className={styles.listItem}>
                     <a href="/contact">Contact</a>
                 </li>
