@@ -38,7 +38,7 @@ export default function HomePage() {
                             i enjoy tackling distributed systems problems and the occasional late-night debugging session where everything mysteriously works after a restart 🤔
                         </p>
                         <p>
-                            my path led me from rvce, bangalore to cisco (where i learned that enterprise software has many... interesting quirks), 
+                            my path led me from rvce, bengaluru to cisco, 
                             then to ucsd for a master's degree, and now to the fast-paced world of aws. 
                             along the way, i've discovered that the best solutions often come from the simplest ideas.
                         </p>

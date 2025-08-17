@@ -22,8 +22,8 @@ export default function About() {
                     </h3>
                     <p>
                         so here's the deal - when i'm not wrestling with distributed systems or staring at logs, 
-                        i actually have a life (shocking, i know). i cook a lot since moving to the united states - turns out ramen 
-                        gets old pretty fast. can't sing or dance to save my life, but i can make a decent donne biryani (*mouth waters*). 
+                        i actually have a life (shocking, i know). i cook a lot since moving to the united states. 
+                        while i can't sing or dance to save my life, but i can make decent donne biryani (*mouth waters*). 
                         also hit the gym regularly because sitting at a desk all day isn't too great for your back.
                     </p>
                     {/* <h4 className={styles.section}>
