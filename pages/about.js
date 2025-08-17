@@ -8,42 +8,31 @@ export default function About() {
     return (
         <div id={mainStyles.container}>
             <Head>
-                <title>About</title>
+                <title>about</title>
                 <meta
                     name="description"
-                    content="An about me page explaining more details about who I am."
+                    content="about gagan - more personal stuff"
                 ></meta>
             </Head>
             <Header />
             <main id={mainStyles.main}>
                 <section id={mainStyles.section}>
                     <h3 className={mainStyles.heading}>
-                        On a more personal note,
+                        beyond the terminal
                     </h3>
                     <p>
-                        Hello, I'm Gagan, a contemplative soul who takes
-                        pleasure in life's little treasures. I try to actively
-                        practise Stoicism, exploring life's deeper questions in
-                        a fast-paced world. While I can't sing or dance to save
-                        my life, I make up for it with my enthusiasm for
-                        cooking. Living solo in the USA has brought out my inner
-                        Gordon Ramsay. I'm all about savoring good food, but I
-                        also balance it with my love for lifting weights in the
-                        gym. And let's not forget fondness for dogs - these
-                        furry companions are, without a doubt, a gift from the
-                        heavens.
+                        so here's the deal - when i'm not wrestling with distributed systems or staring at logs, 
+                        i actually have a life (shocking, i know). i cook a lot since moving to the united states - turns out ramen 
+                        gets old pretty fast. can't sing or dance to save my life, but i can make a decent donne biryani (*mouth waters*). 
+                        also hit the gym regularly because sitting at a desk all day isn't too great for your back.
                     </p>
                     {/* <h4 className={styles.section}>
                         Love for outdoors &#9968;{' '}
                     </h4> */}
                     <p>
-                        Hiking outdoors is one of my favorite pastimes. I've had
-                        the opportunity to embark on two Himalayan expeditions,
-                        immersing myself in the breathtaking beauty of the
-                        mountains. Mount K2 is a dream I hope to conquer
-                        someday, driven by the desire to live life on the edge.
-                        Here are a couple of images from the summit of the
-                        Kedarkantha peak from 2018.
+                        i like hiking - it's basically the opposite of sitting in front of a computer all day. 
+                        did kedarkantha in 2018 which was pretty cool. k2 is on the bucket list but let's be real, 
+                        that's probably not happening anytime soon. here are some pics from kedarkantha:
                     </p>
                     <div className={styles.kkContainer}>
                         <img
@@ -59,34 +48,25 @@ export default function About() {
                     </div>
                     {/* <h4 className={styles.section}>Football &#9917; </h4> */}
                     <p>
-                        Football holds a special place in my heart, and I have
-                        been an ardent supporter of Liverpool FC since 2008. The
-                        thrill of the game, the banter among fans, and the
-                        rollercoaster of emotions that come with each match make
-                        it an awesome experience.
+                        been supporting liverpool since 2008 (yeah, through the rough years too). 
+                        nothing beats watching a match with other fans - the banter, the stress, 
+                        the occasional moment of pure joy when we actually win something important.
                     </p>
                     {/* <h4 className={styles.section}>Photography &#128248; </h4> */}
                     <p>
-                        I also enjoy capturing and playing around with images.
-                        Since 2015, I have been shooting moments and stories
-                        through my Canon 600D. Whether it's the vast landscapes,
-                        the vibrant streets, or the essence of individuals in
-                        portraits, I strive to encapsulate the beauty and
-                        emotions within each frame. You can find some of my work{' '}
+                        i mess around with photography when i have time. picked up a canon 600d in 2015 
+                        and still use it - mostly for landscapes and random street shots. currently obsessed 
+                        with cinematic moody editing styles in lightroom (probably spending way too much time adding grain). 
+                        click {' '}
                         <a href="/photography">
                             <u>here</u>
                         </a>
-                        .
+                        {' '}to check them out.
                     </p>
                     {/* <h4 className={styles.section}> Toby &#9829; </h4> */}
                     <p>
-                        Last, but certainly not the least, I left my pet dog
-                        Toby back home in Bengaluru, whom I absolutely adore.
-                        He's a 3-year-old Indie. His playful spirit and
-                        unconditional love have brought immeasurable happiness
-                        to my life, reminding me of the importance of
-                        companionship and cherished connections. Here are some
-                        of his pictures when he was a puppy.
+                        oh, and i have a dog named toby back home in bangalore. he's an indie. miss that guy every day. 
+                        here he is as a puppy:
                     </p>
                     <div className={styles.tobyContainer}>
                         <img

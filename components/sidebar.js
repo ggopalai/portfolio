@@ -20,9 +20,9 @@ export default function Sidebar({ sidebarVisible }) {
                         Resume
                     </a>
                 </li> */}
-                <li className={styles.listItem}>
+                {/* <li className={styles.listItem}>
                     <a href="/contact">contact</a>
-                </li>
+                </li> */}
             </ul>
         </nav>
     );
