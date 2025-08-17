@@ -116,7 +116,7 @@ const timelineEvents = [
     {
         date: 'may 2019',
         title: 'graduated r.v. college of engineering',
-        description: 'bachelor\'s degree from bangalore',
+        description: 'bachelor\'s degree in computer science',
         category: 'academic',
         type: 'education'
     }

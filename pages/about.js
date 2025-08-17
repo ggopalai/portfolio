@@ -48,7 +48,7 @@ export default function About() {
                     </div>
                     {/* <h4 className={styles.section}>Football &#9917; </h4> */}
                     <p>
-                        been supporting liverpool since 2008 (yeah, through the rough years too). 
+                        i've been supporting liverpool since 2008 (yeah, through the rough years too). 
                         nothing beats watching a match with other fans - the banter, the stress, 
                         the occasional moment of pure joy when we actually win something important.
                     </p>
@@ -65,7 +65,7 @@ export default function About() {
                     </p>
                     {/* <h4 className={styles.section}> Toby &#9829; </h4> */}
                     <p>
-                        oh, and i have a dog named toby back home in bangalore. he's an indie. miss that guy every day. 
+                        i have a dog named toby back home in bangalore. he's an indie. miss that guy every day. 
                         here he is as a puppy:
                     </p>
                     <div className={styles.tobyContainer}>
