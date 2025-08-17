@@ -22,10 +22,12 @@
     font-display: swap;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
 html,
 body {
     margin: 0;
-    font-family: 'Open-Sans-Regular', sans-serif;
+    font-family: 'Fira Code', 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
     font-size: 1rem;
 }
 
@@ -40,7 +42,8 @@ a {
 
 h2 {
     text-decoration: underline;
-    font-family: 'Montserrat-Bold', sans-serif;
+    font-family: 'Fira Code', 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-weight: 600;
     margin-left: 1rem;
 }
 

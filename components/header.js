@@ -11,7 +11,7 @@ export default function Header() {
                     window.location.href = '/';
                 }}
             >
-                Gagan Gopalaiah{' '}
+                gagan gopalaiah{' '}
             </div>
             <Sidebar />
         </header>

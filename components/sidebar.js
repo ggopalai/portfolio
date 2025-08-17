@@ -7,13 +7,13 @@ export default function Sidebar({ sidebarVisible }) {
         <nav className={styles.sidebar}>
             <ul className={styles.unlist}>
                 <li className={styles.listItem}>
-                    <a href="/">Home</a>
+                    <a href="/">home</a>
                 </li>
                 <li className={styles.listItem}>
-                    <a href="/about">About</a>
+                    <a href="/about">about</a>
                 </li>
                 <li className={styles.listItem}>
-                    <a href="/photography">Photography</a>
+                    <a href="/photography">photography</a>
                 </li>
                 {/* <li className={styles.listItem}>
                     <a href="/GaganGopalaiahResume.pdf" download>
@@ -21,7 +21,7 @@ export default function Sidebar({ sidebarVisible }) {
                     </a>
                 </li> */}
                 <li className={styles.listItem}>
-                    <a href="/contact">Contact</a>
+                    <a href="/contact">contact</a>
                 </li>
             </ul>
         </nav>

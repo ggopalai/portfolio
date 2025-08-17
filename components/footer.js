@@ -4,7 +4,7 @@ import Socials from './socials';
 export default function Footer() {
     return (
         <footer id={styles.footer}>
-            <p>© 2024 Gagan Gopalaiah</p>
+            <p>© 2025 gagan gopalaiah</p>
             <Socials />
         </footer>
     );
