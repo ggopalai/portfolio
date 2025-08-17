@@ -1,5 +1,7 @@
 import styles from '../styles/Header.module.css';
 import Sidebar from './sidebar';
+import ThemeToggle from './theme-toggle';
+
 export default function Header() {
     return (
         <header id={styles.header}>
@@ -14,6 +16,9 @@ export default function Header() {
                 gagan gopalaiah{' '}
             </div>
             <Sidebar />
+            <div id={styles.themeToggleFixed}>
+                <ThemeToggle />
+            </div>
         </header>
     );
 }

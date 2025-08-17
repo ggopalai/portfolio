@@ -4,30 +4,54 @@
 }
 
 .gridContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    column-count: 3;
+    column-gap: 1.5rem;
     padding: 1rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--bg-color);
 }
 
 .gridItem {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    break-inside: avoid;
     overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.6s ease;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.gridItem.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.gridItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .image {
     width: 100%;
-    object-fit: cover;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.gridItem:hover .image {
+    transform: scale(1.02);
 }
 
 @media (max-width: 1050px) {
     .gridContainer {
-        grid-template-columns: repeat(2, 1fr);
+        column-count: 2;
     }
 }
 
 @media (max-width: 750px) {
     .gridContainer {
-        grid-template-columns: repeat(1, 1fr);
+        column-count: 1;
     }
 }

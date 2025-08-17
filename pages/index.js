@@ -34,12 +34,12 @@ export default function HomePage() {
                     {/* intro text */}
                     <intro-text id={styles.introtext}>
                         <p>
-                            hey there! i'm a software engineer at amazon web services working on dynamodb, a nosql database. 
+                            sup. i'm a software engineer at amazon web services working on dynamodb - a nosql database. 
                             i enjoy tackling distributed systems problems and the occasional late-night debugging session where everything mysteriously works after a restart 🤔
                         </p>
                         <p>
                             my path led me from rvce, bangalore to cisco (where i learned that enterprise software has many... interesting quirks), 
-                            then to ucsd for a master's degree, and now to the fast-paced world of amazon web services - one sev2 at a time. 
+                            then to ucsd for a master's degree, and now to the fast-paced world of aws. 
                             along the way, i've discovered that the best solutions often come from the simplest ideas.
                         </p>
                         <p>
