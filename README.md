@@ -2,7 +2,7 @@
 
 Portfolio website for Gagan Gopalaiah written using Next.js.
 
-Hosted [here](https://gagangopalaiah.me).
+Hosted [here](https://gagangopalaiah.dev).
 
 TODOs:
 

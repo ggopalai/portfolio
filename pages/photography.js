@@ -25,6 +25,20 @@ export default function Photography() {
         return () => observer.disconnect();
     }, []);
     const imageUrls = [
+        '/images/mt-rainier-basecamp-dawn.jpg',
+        '/images/mt-rainier-basecamp-moon.jpg',
+        '/images/cannon-beach-sunset.jpg',
+        '/images/kamo-river-walk.jpg',
+        '/images/kamo-river-kyoto.jpg',
+        '/images/kyoto-rainy-night.jpg',
+        '/images/fuji-through-window.jpg',
+        '/images/fuji-fall-foliage.jpg',
+        '/images/fuji-golden-hour.jpg',
+        '/images/lake-crescent-dusk.jpg',
+        '/images/ruby-beach-branches.jpg',
+        '/images/ruby-beach-headland.jpg',
+        '/images/ruby-beach-sea-stacks.jpg',
+        '/images/ruby-beach-cabins.jpg',
         '/images/photo54.avif',
         '/images/photo53.avif',
         '/images/photo52.avif',

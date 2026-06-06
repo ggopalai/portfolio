@@ -2,6 +2,13 @@ import styles from '../styles/Timeline.module.css';
 
 const timelineEvents = [
     {
+        date: 'may 2026',
+        title: 'hiked half dome',
+        description: 'conquered the cables at yosemite',
+        category: 'personal',
+        type: 'personal',
+    },
+    {
         date: 'sep 2025',
         title: "climbed angel's landing",
         description: 'likely one of the most thrilling hikes..... so far ;)',
